@@ -1,4 +1,4 @@
-## KiCad-Arduino Library
+# KiCad-Arduino Library
 Library of schematic components and footprints of common Arduino boards for KiCAD.
 
 Currently included are:
@@ -12,7 +12,7 @@ Currently included are:
 
 Shield means the Arduino is designed to plug in from beneath your PCB; socket means it is designed to plug in from above.
 
-# Library Setup
+## Library Setup
 To add this library to your KiCad Project, do the following steps:
 1. Copy the source files to your Project. Make sure that the Arduino.pretty folder structure is preserved.
 2. In EeSchema (the schematic editor of KiCad) go to Preferences -> Component Libraries. Click the "Add" button next to "Component library files".
@@ -23,7 +23,7 @@ To add this library to your KiCad Project, do the following steps:
 7. In the new line of the table, set Library Path to "$(KIPRJMOD)\Arduino.pretty" and ensure Plugin Type is "KiCad". Options and Description can be left blank. You should set Nickname to something descriptive - like "Arduino" for example!
 8. All done: you are now ready to use these schematic components and footprints!
 
-# Comments, Requests, Bugs & Contributions
+## Comments, Requests, Bugs & Contributions
 All are welcome. Please file an "Issue" in the Bug Tracker.
 
-# License
+## License
