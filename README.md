@@ -1,4 +1,4 @@
-# Arduion KiCad Library
+# Arduino KiCad Library
 Library of schematic components and footprints of common Arduino boards for KiCAD.
 
 Currently included are:
@@ -16,7 +16,7 @@ Shield means the Arduino is designed to plug in from beneath your PCB; socket me
 To add this library to your KiCad Project, do the following steps:
 1. Copy the source files to your Project. Make sure that the Arduino.pretty folder structure is preserved.
 2. In EeSchema (the schematic editor of KiCad) go to Preferences -> Component Libraries. Click the "Add" button next to "Component library files".
-3. Navigate to your project folder, select "arduion.lib" and click "open".
+3. Navigate to your project folder, select "arduino.lib" and click "open".
 4. You may wish to adjust the newly added arduino schematic library to be near the top of the load order using the "Up" and "Down" buttons, but this is optional and is only relevant if you have other libraries that use the same names for parts.
 5. OK out and exit EeSchema. Open PcbNew (the PCB editor of KiCad) go to Preferences -> Footprint Libraries Manager.
 6. Select the "Project Specific Libraries" tab and then click "Append Library".
