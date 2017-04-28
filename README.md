@@ -27,3 +27,4 @@ To add this library to your KiCad Project, do the following steps:
 All are welcome. Please file an "Issue" in the Bug Tracker.
 
 ## License
+This library is licensed under the GNU LGPL v2.1, which can be found in file LICENSE.txt.
