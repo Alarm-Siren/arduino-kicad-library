@@ -1,4 +1,4 @@
-# KiCad-Arduino Library
+# Arduion KiCad Library
 Library of schematic components and footprints of common Arduino boards for KiCAD.
 
 Currently included are:
