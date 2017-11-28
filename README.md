@@ -15,10 +15,11 @@ Currently included are:
 Shield means the Arduino is designed to plug in from beneath your PCB; socket means it is designed to plug in from above.
 
 ## Comments, Requests, Bugs & Contributions
-All are welcome. Please file an Issue or Pull Request at https://github.com/Alarm-Siren/arduino-kicad-library
+All are welcome.  
+Please file an Issue or Pull Request at https://github.com/Alarm-Siren/arduino-kicad-library
 
 ## License
-Copyright 2017, Nicholas Parks Young. Some Rights Reserved.
+Copyright 2017, Nicholas Parks Young. Some Rights Reserved.  
 This library is licensed under the GNU LGPL v2.1, which can be found in file LICENSE.txt.
 
 ## Library Setup
