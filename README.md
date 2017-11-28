@@ -51,4 +51,4 @@ In other words, if you use the reset pin as an input to your shield then you do 
 
 *The KiCad ERC cannot catch all the possible electrical errors on your schematic as it doesn't natively support the reset and power pins' electrical types. Even if the ERC says its OK, double check it manually.*
 
-*If the ERC says that your power pins are undriven, first manually check they are. If they are, then add a "PWR_FLAG" component to the net to make the error go away.*
+*If the ERC says that your power pins are undriven, first manually check they are being driven. If they are driven, then add a "PWR_FLAG" component to the net to make the error go away.*
