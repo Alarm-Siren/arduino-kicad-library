@@ -1,0 +1,3 @@
+*.kicad_mod linguist-language=Kicad
+*.dcm linguist-language=Kicad
+*.lib linguist-language=Kicad
