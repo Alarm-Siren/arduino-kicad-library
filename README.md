@@ -22,6 +22,11 @@ Please file an Issue or Pull Request at https://github.com/Alarm-Siren/arduino-k
 Copyright 2017, Nicholas Parks Young. Some Rights Reserved.  
 This library is licensed under the GNU LGPL v2.1, which can be found in file LICENSE.txt.
 
+## Donations
+
+If you've found this library useful and you'd like to buy me a beer of gratitude, you can donate to me using the button below
+[![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
+
 ## Library Setup
 To add this library to your KiCad Project, do the following steps:
 1. Copy the source files to your Project. Make sure that the Arduino.pretty folder structure is preserved.
