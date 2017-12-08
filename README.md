@@ -24,7 +24,8 @@ This library is licensed under the GNU LGPL v2.1, which can be found in file LIC
 
 ## Donations
 
-If you've found this library useful and you'd like to buy me a beer of gratitude, you can donate to me using the button below
+If you've found this library useful and you'd like to buy me a beer of gratitude, you can donate to me using the button below.
+
 [![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
 
 ## Library Setup
