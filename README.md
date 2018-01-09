@@ -6,7 +6,7 @@ Library of schematic components and footprints of common Arduino boards for KiCA
 Currently included are:
 - Arduino 101 Shield
 - Arduino Due Shield
-- Arduino Leonard Shied
+- Arduino Leonardo Shied
 - Arduino Mega 2560 Shield
 - Arduino Micro Socket
 - Arduino Uno Shield
