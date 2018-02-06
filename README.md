@@ -1,5 +1,5 @@
 # Arduino KiCad Library
-*Version 1.1.2*
+*Version 1.1.3*
 
 Library of schematic components and footprints of common Arduino boards for KiCad.
 
