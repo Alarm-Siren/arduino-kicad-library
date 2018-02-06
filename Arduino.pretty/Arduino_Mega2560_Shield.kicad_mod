@@ -1,5 +1,6 @@
 (module Arduino_Mega2560_Shield (layer F.Cu) (tedit 5898A177)
-  (fp_text reference ARD** (at 2.54 -54.356) (layer F.SilkS)
+  (descr https://store.arduino.cc/arduino-mega-2560-rev3)
+  (fp_text reference XA** (at 2.54 -54.356) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Arduino_Mega2560_Shield (at 15.494 -54.356) (layer F.Fab)

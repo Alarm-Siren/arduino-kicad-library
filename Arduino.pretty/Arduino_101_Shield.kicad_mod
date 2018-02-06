@@ -1,5 +1,6 @@
-(module Arduino_101_Shield (layer F.Cu) (tedit 5898A862)
-  (fp_text reference ARD** (at 2.54 -54.356) (layer F.SilkS)
+(module Arduino_101_Shield (layer F.Cu) (tedit 5A78EE34)
+  (descr https://store.arduino.cc/genuino-101)
+  (fp_text reference XA** (at 2.54 -54.356) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Arduino_101_Shield (at 15.494 -54.356) (layer F.Fab)

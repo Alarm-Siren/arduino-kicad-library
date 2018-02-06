@@ -3,43 +3,43 @@ EESchema-DOCLIB  Version 2.0
 $CMP Arduino_101_Shield
 D Shield for Arduino 101
 K Arduino MPU Shield
-F https://www.arduino.cc/en/Main/ArduinoBoard101
+F https://store.arduino.cc/genuino-101
 $ENDCMP
 #
 $CMP Arduino_Due_Shield
 D Shield for Arduino Due
 K Arduino MPU Shield
-F https://www.arduino.cc/en/Main/ArduinoBoardDue
+F https://store.arduino.cc/arduino-due
 $ENDCMP
 #
 $CMP Arduino_Leonardo_Shield
 D Shield for Arduino Leonardo
 K Arduino MPU Shield
-F https://www.arduino.cc/en/Main/ArduinoBoardLeonardo
+F https://store.arduino.cc/arduino-leonardo-with-headers
 $ENDCMP
 #
 $CMP Arduino_Mega2560_Shield
 D Shield for Arduino Mega 2560
 K Arduino MPU Shield
-F https://www.arduino.cc/en/Main/ArduinoBoardMega2560
+F https://store.arduino.cc/arduino-mega-2560-rev3
 $ENDCMP
 #
 $CMP Arduino_Micro_Socket
 D Socket for Arduino Micro
 K Arduino MPU Shield
-F https://www.arduino.cc/en/Main/ArduinoBoardMicro
+F https://store.arduino.cc/arduino-micro
 $ENDCMP
 #
 $CMP Arduino_Uno_Shield
 D Shield for Arduino Uno
 K Arduino MPU Shield
-F https://www.arduino.cc/en/Main/ArduinoBoardUno
+F https://store.arduino.cc/arduino-uno-rev3
 $ENDCMP
 #
 $CMP Arduino_Zero_Shield
 D Shield for Arduino Zero
 K Arduino MPU Shield
-F https://www.arduino.cc/en/Main/ArduinoBoardZero
+F https://store.arduino.cc/genuino-zero
 $ENDCMP
 #
 #End Doc Library
