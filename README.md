@@ -1,5 +1,5 @@
 # Arduino KiCad Library
-*Version 1.1.3*
+*Version 1.2.0*
 
 Library of schematic components and footprints of common Arduino boards for KiCad.
 
@@ -9,8 +9,12 @@ Currently included are:
 - Arduino Leonardo Shied
 - Arduino Mega 2560 Shield
 - Arduino Micro Socket
+- Arduino Nano Socket
 - Arduino Uno Shield
 - Arduino Zero Shield
+
+Coming soon:
+- Arduino Mini Socket [v1.3]
 
 Shield means the Arduino is designed to plug in from beneath your PCB; socket means it is designed to plug in from above.
 
@@ -19,7 +23,7 @@ All are welcome.
 Please file an Issue or Pull Request at https://github.com/Alarm-Siren/arduino-kicad-library
 
 ## License
-Copyright 2017, Nicholas Parks Young. All Rights Reserved.  
+Copyright 2017-2018, Nicholas Parks Young. All Rights Reserved.  
 This library is licensed under the GNU LGPL v2.1, which can be found in file LICENSE.txt.
 
 ## Donations

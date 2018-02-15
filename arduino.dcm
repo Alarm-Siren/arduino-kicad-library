@@ -30,6 +30,12 @@ K Arduino MPU Shield
 F https://store.arduino.cc/arduino-micro
 $ENDCMP
 #
+$CMP Arduino_Nano_Socket
+D Socket for Arduino Nano
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-nano
+$ENDCMP
+#
 $CMP Arduino_Uno_Shield
 D Shield for Arduino Uno
 K Arduino MPU Shield
