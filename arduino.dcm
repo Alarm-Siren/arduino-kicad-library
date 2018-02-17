@@ -30,6 +30,36 @@ K Arduino MPU Shield
 F https://store.arduino.cc/arduino-micro
 $ENDCMP
 #
+$CMP Arduino_Mini_01_Socket
+D Socket for Arduino Mini 01
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-mini-05
+$ENDCMP
+#
+$CMP Arduino_Mini_02_Socket
+D Socket for Arduino Mini 02
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-mini-05
+$ENDCMP
+#
+$CMP Arduino_Mini_03_Socket
+D Socket for Arduino Mini 03
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-mini-05
+$ENDCMP
+#
+$CMP Arduino_Mini_04_Socket
+D Socket for Arduino Mini 04
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-mini-05
+$ENDCMP
+#
+$CMP Arduino_Mini_05_Socket
+D Socket for Arduino Mini 05
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-mini-05
+$ENDCMP
+#
 $CMP Arduino_Nano_Socket
 D Socket for Arduino Nano
 K Arduino MPU Shield
