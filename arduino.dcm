@@ -18,6 +18,12 @@ K Arduino MPU Shield
 F https://store.arduino.cc/arduino-leonardo-with-headers
 $ENDCMP
 #
+$CMP Arduino_M0_Shield
+D Shield for Arduino M0
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-m0
+$ENDCMP
+#
 $CMP Arduino_Mega2560_Shield
 D Shield for Arduino Mega 2560
 K Arduino MPU Shield
