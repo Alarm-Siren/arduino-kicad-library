@@ -320,6 +320,7 @@ F0 "XA" 100 0 60 V V C CNN
 F1 "Arduino_M0_Shield" -100 0 60 V V C CNN
 F2 "" 1800 3750 60 H I C CNN
 F3 "" 1800 3750 60 H I C CNN
+ALIAS Arduino_M0_Pro_Shield
 $FPLIST
  Arduino_Leonardo_Shield
 $ENDFPLIST
