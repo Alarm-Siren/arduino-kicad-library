@@ -1,5 +1,5 @@
 # Arduino KiCad Library
-*Version 1.3.0*
+*Version 1.4.0*
 
 Library of schematic components and footprints of common Arduino boards for KiCad.
 
@@ -7,9 +7,11 @@ Currently included are:
 - Arduino 101 Shield
 - Arduino Due Shield
 - Arduino Leonardo Shied
+- Arduino M0 Shield
+- Arduino M0 Pro Shield
 - Arduino Mega 2560 Shield
-- Arduino Mini Socket
 - Arduino Micro Socket
+- Arduino Mini Socket
 - Arduino Nano Socket
 - Arduino Uno Shield
 - Arduino Zero Shield
