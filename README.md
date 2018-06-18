@@ -40,7 +40,7 @@ To add this library to your KiCad Project, do the following steps:
 4. You may wish to adjust the newly added arduino schematic library to be near the top of the load order using the "Up" and "Down" buttons, but this is optional and is only relevant if you have other libraries that use the same names for parts.
 5. OK out and exit Eeschema. Open Pcbnew (the PCB editor of KiCad) go to Preferences -> Footprint Libraries Manager.
 6. Select the "Project Specific Libraries" tab and then click "Append Library".
-7. In the new line of the table, set Library Path to "$(KIPRJMOD)\Arduino.pretty", if on linux to "$(KIPRJMOD)/Arduino.pretty", and ensure Plugin Type is "KiCad". Options and Description can be left blank. You should set Nickname to something descriptive - like "Arduino" for example!
+7. In the new line of the table, set Library Path to "$(KIPRJMOD)\Arduino.pretty" on Windows or "$(KIPRJMOD)/Arduino.pretty" on Linux/Mac, and ensure Plugin Type is "KiCad". Options and Description can be left blank. You should set Nickname to something descriptive - like "Arduino" for example!
 8. All done: you are now ready to use these schematic components and footprints!
 
 ## A note about Power and Reset pins
