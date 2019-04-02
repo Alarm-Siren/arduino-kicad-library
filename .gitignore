@@ -9,6 +9,7 @@
 _autosave-*
 *.tmp
 rescue-backup/
+fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
