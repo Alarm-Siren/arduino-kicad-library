@@ -8,6 +8,7 @@
 *~
 _autosave-*
 *.tmp
+rescue-backup/
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -25,5 +26,6 @@ testproject.sch
 testproject.pro
 testproject.kicad_pcb
 fp-lib-table
+sym-lib-table
 *-cache.lib
 *-rescue.lib
