@@ -15,6 +15,7 @@ Currently included are:
 - Arduino Nano Socket
 - Arduino Uno Shield
 - Arduino Zero Shield
+- Arduino Pro mini
 
 Shield means the Arduino is designed to plug in from beneath your PCB; socket means it is designed to plug in from above.
 
