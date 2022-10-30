@@ -16,15 +16,19 @@ Currently included are:
 - Arduino Uno Shield
 - Arduino Zero Shield
 - Arduino Pro Mini Socket
+- Pro Mini Clone Socket
 
 Shield means the Arduino is designed to plug in from beneath your PCB; socket means it is designed to plug in from above.
+
+# Compatibility with KiCad 5
+This library is in the new KiCad 6 "S-Expressions" format, and is not compatible with KiCad 5. If you need compatibility with KiCad 5, please use version 1.4.1 of this repository - but be aware that said version does not contain all features and is not being maintained.
 
 ## Comments, Requests, Bugs & Contributions
 All are welcome.  
 Please file an Issue or Pull Request at https://github.com/Alarm-Siren/arduino-kicad-library
 
 ## License
-Copyright 2017-2019, Nicholas Parks Young. All Rights Reserved.  
+Copyright 2017-2022, Nicholas Parks Young. All Rights Reserved.  
 This library is licensed under the GNU LGPL v2.1, which can be found in file LICENSE.txt.
 
 ## Donations
@@ -35,14 +39,20 @@ If you've found this library useful and you'd like to make a donation towards it
 
 ## Library Setup
 To add this library to your KiCad Project, do the following steps:
-1. Copy the source files to your Project. Make sure that the Arduino.pretty folder structure is preserved.
-2. In Eeschema (the schematic editor of KiCad) go to Preferences -> Component Libraries. Click the "Add" button next to "Component library files".
-3. Navigate to your project folder, select "arduino.lib" and click "open".
-4. You may wish to adjust the newly added arduino schematic library to be near the top of the load order using the "Up" and "Down" buttons, but this is optional and is only relevant if you have other libraries that use the same names for parts.
-5. OK out and exit Eeschema. Open Pcbnew (the PCB editor of KiCad) go to Preferences -> Footprint Libraries Manager.
-6. Select the "Project Specific Libraries" tab and then click "Append Library".
-7. In the new line of the table, set Library Path to "$(KIPRJMOD)\Arduino.pretty" on Windows or "$(KIPRJMOD)/Arduino.pretty" on Linux/Mac, and ensure Plugin Type is "KiCad". Options and Description can be left blank. You should set Nickname to something descriptive - like "Arduino" for example!
-8. All done: you are now ready to use these schematic components and footprints!
+1. Copy the source files to the root of your KiCad project's folder. Make sure that the Arduino.pretty folder structure is preserved.
+2. In Schematic Editor go to "Preferences" -> "Manage Symbol Libraries..." menu option.
+3. In the Symbol Libraries dialogue that appears, switch to the "Project Specific Libraries" tab.
+4. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
+5. In the new line of the table, set Library Path to "${KIPRJMOD}\arduino.kicad_sym" on Windows or "${KIPRJMOD}/arduino.kicad_sym" on Linux/Mac, and ensure Plugin Type is "KiCad".
+6. You can leave the Options and Description fields blank. You should set Nickname to something descriptive - for example, "Arduino Library".
+7. Close the Symbol Libraries dialogue and exit Schematic Editor.
+8. In PCB Editor go to "Preferences" -> "Manage Footprint Libraries..." menu option.
+9. In the Footprint Libraries Libraries dialogue that appears, switch to the "Project Specific Libraries" tab.
+10. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
+11. In the new line of the table, set Library Path to "${KIPRJMOD}\Arduino.pretty" on Windows or "${KIPRJMOD}/Arduino.pretty" on Linux/Mac, and ensure Plugin Type is "KiCad".
+12. You can leave the Options and Description fields blank. You should set Nickname to something descriptive - for example, "Arduino Library".
+13. Close the Footprint Libraries dialogue and exit PCB Editor.
+14. All done: you are now ready to use these schematic components and footprints!
 
 ## A note about Power and Reset pins
 
@@ -52,6 +62,8 @@ On the Arduino Platform, it is not possible to categorically state that the powe
 Regardless of the above, I needed to make a decision about what electrical type to apply to these pins. I could use something like Passive or Unspecified, but then KiCad's Electrical Rules Checker (ERC) tool would not be effective in catching errors on these pins at all, whilst using Power Output means it objects to you joining pins together (for example, joining all the GND pins into a common net) even when that's OK in some situations.
 
 Therefore, I have decided to use Power Input as this presents the least issues. This means if you're actually using any of the power pins as Power Outputs in your schematic, by default the ERC will complain that the relevant nets are undriven. To fix this you will need to add the special "PWR_FLAG" component to the affected net.
+
+NOTE: As of version 2.0.0, on the 5V-based Arduino boards the 3.3V output pin has been changed to Power Output, as these will be powered by an on-board regulator and should not have external power fed into them.
 
 ### Reset
 Reset pins on the Arduino Platform have interesting electrical characteristics, which mean that no KiCad electrical type exactly matches their functionality. I settled on Open Collector as the nearest candidate, but unlike a true Open Collector pin on an integrated circuit, the reset pins on the Arduino Platform have an internal weak pull-up, and the reset button that can strongly pull low, so your circuit needs to be able to cope with all these situations.
