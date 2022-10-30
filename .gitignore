@@ -7,9 +7,8 @@
 *.kicad_pcb-bak
 *~
 _autosave-*
+#auto_saved_files#
 *.tmp
-rescue-backup/
-fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -23,10 +22,13 @@ fp-info-cache
 *.csv
 
 # Ignore the testproject files
-testproject.sch
-testproject.pro
+testproject.kicad_sch
+testproject.kicad_pro
 testproject.kicad_pcb
+testproject.kicad_prl
+testproject-backups
 fp-lib-table
 sym-lib-table
+fp-info-cache
 *-cache.lib
 *-rescue.lib
