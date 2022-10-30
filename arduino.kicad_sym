@@ -1118,7 +1118,7 @@
       )
     )
     (symbol "Arduino_Leonardo_Shield_1_1"
-      (pin power_in line (at -33.02 -21.59 0) (length 7.62)
+      (pin power_out line (at -33.02 -21.59 0) (length 7.62)
         (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "3V3" (effects (font (size 1.27 1.27))))
       )
@@ -1876,7 +1876,7 @@
       )
     )
     (symbol "Arduino_Mega2560_Shield_1_1"
-      (pin power_in line (at -33.02 -44.45 0) (length 7.62)
+      (pin power_out line (at -33.02 -44.45 0) (length 7.62)
         (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "3V3" (effects (font (size 1.27 1.27))))
       )
@@ -2422,7 +2422,7 @@
       )
     )
     (symbol "Arduino_Micro_Socket_1_1"
-      (pin power_in line (at -33.02 -17.78 0) (length 7.62)
+      (pin power_out line (at -33.02 -17.78 0) (length 7.62)
         (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "3V3" (effects (font (size 1.27 1.27))))
       )
@@ -3735,7 +3735,7 @@
       )
     )
     (symbol "Arduino_Nano_Socket_1_1"
-      (pin power_in line (at -33.02 -17.78 0) (length 7.62)
+      (pin power_out line (at -33.02 -17.78 0) (length 7.62)
         (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "3V3" (effects (font (size 1.27 1.27))))
       )
@@ -4362,7 +4362,7 @@
       )
     )
     (symbol "Arduino_Uno_Shield_1_1"
-      (pin power_in line (at -33.02 -21.59 0) (length 7.62)
+      (pin power_out line (at -33.02 -21.59 0) (length 7.62)
         (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "3V3" (effects (font (size 1.27 1.27))))
       )
