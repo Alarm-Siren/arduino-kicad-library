@@ -4884,7 +4884,7 @@
     (property "ki_description" "Socket for Common Unofficial Pro Mini Clone" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "Arduino_Pro_Mini_Clone_Socket" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "Pro_Mini_Clone_Socket" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Pro_Mini_Clone_Socket_0_0"
