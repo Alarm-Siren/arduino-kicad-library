@@ -21,7 +21,7 @@ Currently included are:
 
 Shield means the Arduino is designed to plug in from beneath your PCB; socket means it is designed to plug in from above.
 
-# Compatibility with KiCad 5
+## Compatibility with KiCad 5
 This library is in the new KiCad 6 "S-Expressions" format, and is not compatible with KiCad 5. If you need compatibility with KiCad 5, please use version 1.4.1 of this repository - but be aware that said version does not contain all features and is not being maintained.
 
 ## Comments, Requests, Bugs & Contributions
