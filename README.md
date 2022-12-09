@@ -1,5 +1,5 @@
 # Arduino KiCad Library
-*Version 2.0.0*
+*Version 2.1.0*
 
 Library of schematic components and footprints of common Arduino boards for KiCad.
 
@@ -12,6 +12,7 @@ Currently included are:
 - Arduino Mega 2560 Shield
 - Arduino Micro Socket
 - Arduino Mini Socket
+- Arduino MKR Zero Socket
 - Arduino Nano Socket
 - Arduino Uno Shield
 - Arduino Zero Shield
@@ -29,7 +30,15 @@ Please file an Issue or Pull Request at https://github.com/Alarm-Siren/arduino-k
 
 ## License
 Copyright 2017-2022, Nicholas Parks Young. All Rights Reserved.  
-This library is licensed under the GNU LGPL v2.1, which can be found in file LICENSE.txt.
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
 ## Donations
 
@@ -44,13 +53,13 @@ To add this library to your KiCad Project, do the following steps:
 3. In the Symbol Libraries dialogue that appears, switch to the "Project Specific Libraries" tab.
 4. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
 5. In the new line of the table, set Library Path to "${KIPRJMOD}\arduino.kicad_sym" on Windows or "${KIPRJMOD}/arduino.kicad_sym" on Linux/Mac, and ensure Plugin Type is "KiCad".
-6. You can leave the Options and Description fields blank. You should set Nickname to something descriptive - for example, "Arduino Library".
+6. Set Nickname to "Arduino_Library". You can leave the Options and Description fields blank.
 7. Close the Symbol Libraries dialogue and exit Schematic Editor.
 8. In PCB Editor go to "Preferences" -> "Manage Footprint Libraries..." menu option.
 9. In the Footprint Libraries Libraries dialogue that appears, switch to the "Project Specific Libraries" tab.
 10. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
 11. In the new line of the table, set Library Path to "${KIPRJMOD}\Arduino.pretty" on Windows or "${KIPRJMOD}/Arduino.pretty" on Linux/Mac, and ensure Plugin Type is "KiCad".
-12. You can leave the Options and Description fields blank. You should set Nickname to something descriptive - for example, "Arduino Library".
+12. Set Nickname to "Arduino_Library". You can leave the Options and Description fields blank.
 13. Close the Footprint Libraries dialogue and exit PCB Editor.
 14. All done: you are now ready to use these schematic components and footprints!
 
