@@ -13,10 +13,19 @@ Currently included are:
 - Arduino Micro Socket
 - Arduino Mini Socket
 - Arduino MKR Zero Socket
+- Arduino MKR 1000 WiFi
+- Arduino MKR WiFi 1010
+- Arduino MKR FOX 1200
+- Arduino MKR WAN 1300
+- Arduino MKR WAN 1310
+- Arduino MKR GSM 1400
+- Arduino MKR NB 1500
 - Arduino Nano Socket
-- Arduino Uno Shield
-- Arduino Zero Shield
 - Arduino Pro Mini Socket
+- Arduino Uno R3 Shield
+- Arduino Uno R3 SMD Shield
+- Arduino Uno WiFi R2 Shield
+- Arduino Zero Shield
 - Pro Mini Clone Socket
 
 Shield means the Arduino is designed to plug in from beneath your PCB; socket means it is designed to plug in from above.
