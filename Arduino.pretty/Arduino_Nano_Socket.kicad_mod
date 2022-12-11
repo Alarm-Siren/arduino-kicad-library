@@ -1,7 +1,7 @@
 (footprint "Arduino_Nano_Socket" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 5A860395)
-  (descr "https://store.arduino.cc/products/arduino-nano")
+  (descr "https://docs.arduino.cc/hardware/nano")
   (attr through_hole)
   (fp_text reference "XA**" (at 0 -44.45) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
