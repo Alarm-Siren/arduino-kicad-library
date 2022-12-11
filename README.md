@@ -1,5 +1,5 @@
 # Arduino KiCad Library
-*Version 2.2.0*
+*Version 2.3.0*
 
 Library of schematic components and footprints of common Arduino boards for KiCad.
 
@@ -20,6 +20,7 @@ Currently included are:
 - Arduino MKR WAN 1310
 - Arduino MKR GSM 1400
 - Arduino MKR NB 1500
+- Arduino MKR Vidor 4000
 - Arduino Nano Socket
 - Arduino Pro Mini Socket
 - Arduino Uno R3 Shield
