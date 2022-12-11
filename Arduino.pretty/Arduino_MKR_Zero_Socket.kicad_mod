@@ -1,7 +1,7 @@
 (footprint "Arduino_MKR_Zero_Socket" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (descr "https://store.arduino.cc/mkr-zero")
+  (descr "https://docs.arduino.cc/hardware/mkr-zero")
   (attr through_hole)
   (fp_text reference "XA**" (at 4 -3.35 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
