@@ -4,32 +4,36 @@
 This is a library of KiCad schematic symbols and PCB footprints for common Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
 Currently included modules:
-- Arduino 101 Shield
-- Arduino Due Shield
-- Arduino Leonardo Shield
-- Arduino M0 Shield
-- Arduino M0 Pro Shield
-- Arduino Mega 2560 Shield
-- Arduino Micro Socket
-- Arduino Mini Socket
-- Arduino MKR Zero Socket
-- Arduino MKR 1000 WiFi Socket
-- Arduino MKR WiFi 1010 Socket
-- Arduino MKR FOX 1200 Socket
-- Arduino MKR WAN 1300 Socket
-- Arduino MKR WAN 1310 Socket
-- Arduino MKR GSM 1400 Socket
-- Arduino MKR NB 1500 Socket
-- Arduino MKR Vidor 4000 Socket
-- Arduino Nano Socket
-- Arduino Nano Every SMD
-- Arduino Nano Every Socket
-- Arduino Pro Mini Socket
-- Arduino Uno R3 Shield
-- Arduino Uno R3 SMD Shield
-- Arduino Uno WiFi R2 Shield
-- Arduino Zero Shield
-- Pro Mini Clone Socket
+- Arduino **101** Shield
+- Arduino **Due** Shield
+- Arduino **Leonardo** Shield
+- Arduino **M0** Shield
+- Arduino **M0 Pro** Shield
+- Arduino **Mega 2560** Shield
+- Arduino **Micro** Socket
+- Arduino **Mini** Socket
+- Arduino **MKR Zero** Socket
+- Arduino **MKR 1000 WiFi** Socket
+- Arduino **MKR WiFi 1010** Socket
+- Arduino **MKR FOX 1200** Socket
+- Arduino **MKR WAN 1300** Socket
+- Arduino **MKR WAN 1310** Socket
+- Arduino **MKR GSM 1400** Socket
+- Arduino **MKR NB 1500** Socket
+- Arduino **MKR Vidor 4000** Socket
+- Arduino **Nano** Socket
+- Arduino **Nano 33 BLE** SMD
+- Arduino **Nano 33 BLE** Socket
+- Arduino **Nano 33 BLE Sense** SMD
+- Arduino **Nano 33 BLE Sense** Socket
+- Arduino **Nano Every** SMD
+- Arduino **Nano Every** Socket
+- Arduino **Pro Mini** Socket
+- Arduino **Uno R3** Shield
+- Arduino **Uno R3 SMD** Shield
+- Arduino **Uno WiFi R2** Shield
+- Arduino **Zero** Shield
+- Clone **Pro Mini** Socket
 
 *"Shield" means the module is designed to plug in from beneath your PCB. "Socket" means the module is designed to plug in from above your PCB. "SMD" means the module is designed to be soldered directly on to your PCB using surface-mount pads.*
 
@@ -40,7 +44,7 @@ This library is in the new KiCad 6 "S-Expressions" format, and is not compatible
 All are welcome!
 Please open an [Issue](https://github.com/Alarm-Siren/arduino-kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/arduino-kicad-library/pulls), as appropriate.
 
-## Legal Information & License
+## License & Legal
 Copyright 2017-2022, [Nicholas Parks Young](https://github.com/Alarm-Siren). All Rights Reserved.
 
 Except as otherwise noted, the content of this library is licensed under the 
