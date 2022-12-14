@@ -22,12 +22,12 @@ Currently included modules:
 - Arduino **MKR NB 1500** Socket
 - Arduino **MKR Vidor 4000** Socket
 - Arduino **Nano** Socket
-- Arduino **Nano 33 BLE** SMD
 - Arduino **Nano 33 BLE** Socket
-- Arduino **Nano 33 BLE Sense** SMD
+- Arduino **Nano 33 BLE** Tile
 - Arduino **Nano 33 BLE Sense** Socket
-- Arduino **Nano Every** SMD
+- Arduino **Nano 33 BLE Sense** Tile
 - Arduino **Nano Every** Socket
+- Arduino **Nano Every** Tile
 - Arduino **Pro Mini** Socket
 - Arduino **Uno R3** Shield
 - Arduino **Uno R3 SMD** Shield
@@ -35,7 +35,7 @@ Currently included modules:
 - Arduino **Zero** Shield
 - Clone **Pro Mini** Socket
 
-*"Shield" means the module is designed to plug in from beneath your PCB. "Socket" means the module is designed to plug in from above your PCB. "SMD" means the module is designed to be soldered directly on to your PCB using surface-mount pads.*
+*"Shield" means the module is designed to plug in from beneath your PCB. "Socket" means the module is designed to plug in from above your PCB. "Tile" means the module is designed to be soldered directly on to your PCB using surface-mount pads.*
 
 ## Compatibility with KiCad 5
 This library is in the new KiCad 6 "S-Expressions" format, and is not compatible with KiCad 5. If you need compatibility with KiCad 5, please use version 1.4.1 of this repository - but be aware that said version does not contain all features and is not being maintained.
