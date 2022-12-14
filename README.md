@@ -45,7 +45,7 @@ All are welcome!
 Please open an [Issue](https://github.com/Alarm-Siren/arduino-kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/arduino-kicad-library/pulls), as appropriate.
 
 ## License & Legal
-Copyright 2017-2022, [Nicholas Parks Young](https://github.com/Alarm-Siren). All Rights Reserved.
+Copyright 2017-2022, [Nicholas Parks Young](https://github.com/Alarm-Siren).
 
 Except as otherwise noted, the content of this library is licensed under the 
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), with the following exception:
