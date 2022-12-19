@@ -12,7 +12,6 @@ Currently included modules:
 - Arduino **Mega 2560** Shield
 - Arduino **Micro** Socket
 - Arduino **Mini** Socket
-- Arduino **MKR Zero** Socket
 - Arduino **MKR 1000 WiFi** Socket
 - Arduino **MKR WiFi 1010** Socket
 - Arduino **MKR FOX 1200** Socket
@@ -21,13 +20,18 @@ Currently included modules:
 - Arduino **MKR GSM 1400** Socket
 - Arduino **MKR NB 1500** Socket
 - Arduino **MKR Vidor 4000** Socket
+- Arduino **MKR Zero** Socket
 - Arduino **Nano** Socket
 - Arduino **Nano 33 BLE** Socket
 - Arduino **Nano 33 BLE** Tile
 - Arduino **Nano 33 BLE Sense** Socket
 - Arduino **Nano 33 BLE Sense** Tile
+- Arduino **Nano 33 IoT** Socket
+- Arduino **Nano 33 IoT** Tile
 - Arduino **Nano Every** Socket
 - Arduino **Nano Every** Tile
+- Arduino **Nano RP2040 Connect** Socket
+- Arduino **Nano RP2040 Connect** Tile
 - Arduino **Pro Mini** Socket
 - Arduino **Uno R3** Shield
 - Arduino **Uno R3 SMD** Shield
