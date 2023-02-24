@@ -2604,7 +2604,7 @@
         (number "D52" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 33.02 -54.61 180) (length 7.62)
-        (name "D53_SS" (effects (font (size 1.27 1.27))))
+        (name "D53_CS" (effects (font (size 1.27 1.27))))
         (number "D53" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 33.02 44.45 180) (length 7.62)
