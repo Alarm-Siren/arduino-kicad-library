@@ -3,7 +3,7 @@
   (tedit 5A860395)
   (descr "https://docs.arduino.cc/hardware/nano-every")
   (attr through_hole)
-  (fp_text reference "XA**" (at 0 -44.45) (layer "F.SilkS")
+  (fp_text reference "A**" (at 0 -44.45) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8d501a07-f456-428f-938a-c2ff457ac775)
   )
