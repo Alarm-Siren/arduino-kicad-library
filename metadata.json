@@ -8,14 +8,12 @@
     "author": {
         "name": "Nicholas Parks Young",
         "contact": {
-            "Profile": "https://github.com/Alarm-Siren/"
+            "web": "https://github.com/Alarm-Siren/"
         }
     },
     "license": "CC-BY-SA-4.0",
     "resources": {
-        "GitHub": "https://github.com/Alarm-Siren/arduino-kicad-library",
-        "Instructions": "https://github.com/Alarm-Siren/arduino-kicad-library#readme",
-        "Bug Tracker": "https://github.com/Alarm-Siren/arduino-kicad-library/issues"
+        "github": "https://github.com/Alarm-Siren/arduino-kicad-library"
     },
     "tags": [
         "footprints",
