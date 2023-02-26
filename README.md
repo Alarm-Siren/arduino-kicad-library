@@ -73,7 +73,7 @@ The word "Arduino" is a registered trademark of Arduino SA. This trademark is us
 
 ## Donations
 
-If you've found this library useful and you'd like to buy me a beer in thanks, you can make a donation using the button below:
+I really hope you've found this library useful. If you'd like to buy me a beer in thanks for the work I put into it, you can make a donation using the button below:
 
 [![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
 
@@ -111,7 +111,7 @@ Two concrete examples:
  - For the Arduino 101, both the 5V and 3.3V rails are used by internal circuitry of the module, and the module will create its own 3.3V rail from the 5V rail, thus the 3.3V pins must necessarily be a "Power Output" and is assigned as such. The GND, 5V and VIN pins can be either inputs or outputs depending on how the module is being powered, so they are assigned "Power Input".
 
 ### Reset
-Reset pins on Arduino modules have interesting electrical characteristics, which mean that no KiCad electrical type exactly matches their functionality. I settled on "open collector" as the nearest candidate, but unlike a true open collector pin on an integrated circuit, the reset pins on Arduino modules have an internal weak pull-up and a reset button that can strongly pull low, so your design needs to be able to cope with all these situations. In other words, if you use the reset pin as an input to your PCB then you do not need to add a pull-up (doing so will actually make it less responsive if not break it); conversely if you want to drive the reset line in order to reset the module from your PCB, you need to ensure that you only ever pull it low: if you pull it high at the same time as an unwitting user hits the physical reset button, you've created a short between power and ground through the microcontroller: this would be very bad.
+Reset pins on Arduino modules have interesting electrical characteristics which mean that no KiCad electrical type exactly matches their functionality. I settled on "open collector" as the nearest candidate, but unlike a true open collector pin on an integrated circuit, the reset pins on Arduino modules have an internal weak pull-up and a reset button that can strongly pull low, so your design needs to be able to cope with all these situations. In other words, if you use the reset pin as an input to your PCB then you do not need to add a pull-up (doing so will actually make it less responsive). Conversely, if you want to drive the reset line in order to reset the module from your PCB, you need to ensure that you only ever pull it low: if you pull it high at the same time as an unwitting user hits the physical reset button, you've created a short between power and ground through the microcontroller, and that would be very bad.
 
 ### TL;DR:
 
