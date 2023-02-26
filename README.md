@@ -61,7 +61,7 @@ Except as otherwise noted, all content of this library is licensed under the
 
 ### "KiCad Library for Arduino" Banner & Icon
 
-The two images "banner.png" and "icon.png", both found in the resources folder of this repository, are derived from the ["Arduino Open-Source Community: Main Logotype RGB Colors" originally created by Arduino](https://www.arduino.cc/en/trademark/community-logo), and they are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The two images "resources/banner.png" and "resources/icon.png" are are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). These images are derivatives of ["Arduino Open-Source Community: Main Logotype RGB Colors" originally created by Arduino](https://www.arduino.cc/en/trademark/community-logo). 
 
 [![CC BY-SA-NC 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
