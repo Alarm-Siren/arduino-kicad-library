@@ -1,4 +1,4 @@
-# KiCad Symbol & Footprint Library for Arduino modules
+# KiCad Symbol & Footprint Library for Arduino Modules
 *Version 3.0.0*
 
 This is a library of KiCad schematic symbols and PCB footprints for common Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
