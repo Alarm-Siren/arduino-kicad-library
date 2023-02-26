@@ -1,3 +1,5 @@
+![KiCad Library for Arduino banner logo](/resources/banner.png)
+
 # KiCad Symbol & Footprint Library for Arduino Modules
 *Version 3.0.0*
 
@@ -51,17 +53,28 @@ Please open an [Issue](https://github.com/Alarm-Siren/arduino-kicad-library/issu
 ## License & Legal
 Copyright 2017-2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
 
-Except as otherwise noted, the content of this library is licensed under the 
+Except as otherwise noted, all content of this library is licensed under the 
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), with the following additional exception:
 > To the extent that the creation of electronic designs that use the Licensed Material can be considered to be Adapted Material, the Licensor waives Section 3 of the Public License with respect to these electronic designs and any generated files which incorporate data provided as part of the Licensed Material.
 
 [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
+### "KiCad Library for Arduino" Banner & Icon
+
+The two images "banner.png" and "icon.png", both found in the resources folder of this repository, are derived from the ["Arduino Open-Source Community: Main Logotype RGB Colors" originally created by Arduino](https://www.arduino.cc/en/trademark/community-logo), and they are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+[![CC BY-SA-NC 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Original Images: Copyright 2013, [Arduino SA](https://www.arduino.cc/).
+Derived Images: Copyright 2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
+
+### Arduino Trademark
+
 The word "Arduino" is a registered trademark of Arduino SA. This trademark is used in this library to refer to Arduino products and to identify Arduino-related non-commercial content, as permitted by Arduino's [trademark guidelines](https://www.arduino.cc/en/trademark). This project is not affiliated with nor endorsed by Arduino.
 
 ## Donations
 
-If you've found this library useful and you'd like to buy me a beer in thanks, you can make donation using the button below:
+If you've found this library useful and you'd like to buy me a beer in thanks, you can make a donation using the button below:
 
 [![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
 
