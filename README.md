@@ -63,13 +63,13 @@ Except as otherwise noted, all content of this library is licensed under the
 
 The two images "resources/banner.png" and "resources/icon.png" are are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). These images are derivatives of ["Arduino Open-Source Community: Main Logotype RGB Colors" originally created by Arduino](https://www.arduino.cc/en/trademark/community-logo). 
 
-Original Images: Copyright 2013, [Arduino SA](https://www.arduino.cc/). Derived Images: Copyright 2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
+Original Images: Copyright 2013, [Arduino](https://www.arduino.cc/). Derived Images: Copyright 2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
 
 [![CC BY-SA-NC 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### Arduino Trademark
 
-The word "Arduino" is a registered trademark of Arduino SA. This trademark is used in this library to refer to Arduino products and to identify Arduino-related non-commercial content, as permitted by Arduino's [trademark guidelines](https://www.arduino.cc/en/trademark). This project is not affiliated with nor endorsed by Arduino.
+The word "Arduino" is a registered trademark of [Arduino](https://www.arduino.cc/). This trademark is used in this library to refer to Arduino products and to identify Arduino-related non-commercial content, as permitted by Arduino's [trademark guidelines](https://www.arduino.cc/en/trademark). This project is not affiliated with nor endorsed by Arduino.
 
 ## Donations
 
