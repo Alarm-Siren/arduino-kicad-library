@@ -50,6 +50,41 @@ This library requires at least KiCad 6 to function, and is tested on version 6.0
 All are welcome!
 Please open an [Issue](https://github.com/Alarm-Siren/arduino-kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/arduino-kicad-library/pulls), as appropriate.
 
+## Library Installation
+To add this library to your KiCad Project, do the following steps:
+
+### Manual Download
+1. Go to the [releases page](https://github.com/Alarm-Siren/arduino-kicad-library/releases) and download the most recent version of the "arduino-kicad-library-x.x.x.zip" file.
+2. Open KiCad and click the "Plugin and Content Manager" button.
+3. Click "Install from File..."
+4. Navigate to and open the file you downloaded in step 1 using the "Choose package file" dialogue that has just opened.
+5. You should now find that this library is listed in the "Installed" tab.
+6. Go to step 7 under the KiCad PCM Download section below to complete installation.
+
+### KiCad PCM Download (recommended)
+1. Open KiCad and click the "Plugin and Content Manager" button.
+2. Select the "KiCad official repository" from the top drop-down box (if not already selected).
+3. Go the Libraries tab and locate the "KiCad Library for Arduino Modules" in the list.
+4. Click the "Install" button for that entry in the list.
+5. Click "Apply Changes".
+6. You should now find that this library is listed in the "Installed" tab.
+7. Close the Plugin and Content Manager.
+8. Go to the "Preferences" -> "Manage Symbol Libraries..." menu option.
+9. In the Symbol Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
+10. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
+11. In the new line of the table, set the Nickname to "arduino-library", and ensure the Library Format is set to "KiCad".
+12. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/symbols/com_github_alarm-siren_arduino-kicad-library/arduino-library.kicad_sym".
+13. Click "OK" to close the Symbol Libraries dialogue.
+14. Go to "Preferences" -> "Manage Footprint Libraries..." menu option.
+15. In the Footprint Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
+16. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
+17. In the new line of the table, set the Nickname to "arduino-library", and ensure the Library Format is set to "KiCad".
+18. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/footprints/com_github_alarm-siren_arduino-kicad-library/arduino-library.pretty".
+19. Click "OK" to close the Footprint Libraries dialogue.
+20. All done: you are now ready to use these schematic components and footprints in your projects!
+
+**Warning**: Do not change the Nicknames from those given in steps 11 and 17 above. If you do so KiCad will not assign the correct footprints to the symbols by default.
+
 ## License & Legal
 Copyright 2017-2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
 
@@ -76,23 +111,6 @@ The word "Arduino" is a registered trademark of [Arduino](https://www.arduino.cc
 I really hope you've found this library useful. If you'd like to buy me a beer in thanks for the work I put into it, you can make a donation using the button below:
 
 [![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
-
-## Library Setup
-To add this library to your KiCad Project, do the following steps:
-1. Copy the source files to the root of your KiCad project's folder. Make sure that the Arduino.pretty folder structure is preserved.
-2. In Schematic Editor go to "Preferences" -> "Manage Symbol Libraries..." menu option.
-3. In the Symbol Libraries dialogue that appears, switch to the "Project Specific Libraries" tab.
-4. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
-5. In the new line of the table, set Library Path to "${KIPRJMOD}\arduino.kicad_sym" on Windows or "${KIPRJMOD}/arduino.kicad_sym" on Linux/Mac, and ensure Plugin Type is "KiCad".
-6. Set Nickname to "Arduino_Library". You can leave the Options and Description fields blank.
-7. Close the Symbol Libraries dialogue and exit Schematic Editor.
-8. In PCB Editor go to "Preferences" -> "Manage Footprint Libraries..." menu option.
-9. In the Footprint Libraries dialogue that appears, switch to the "Project Specific Libraries" tab.
-10. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
-11. In the new line of the table, set Library Path to "${KIPRJMOD}\Arduino.pretty" on Windows or "${KIPRJMOD}/Arduino.pretty" on Linux/Mac, and ensure Plugin Type is "KiCad".
-12. Set Nickname to "Arduino_Library". You can leave the Options and Description fields blank.
-13. Close the Footprint Libraries dialogue and exit PCB Editor.
-14. All done: you are now ready to use these schematic components and footprints!
 
 ## A note about Power and Reset pins
 
