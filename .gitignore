@@ -7,7 +7,7 @@
 *.kicad_pcb-bak
 *~
 _autosave-*
-#auto_saved_files#
+[#]auto_saved_files[#]
 *.tmp
 
 # Netlist files (exported from Eeschema)
