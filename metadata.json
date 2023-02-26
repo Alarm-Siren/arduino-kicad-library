@@ -1,8 +1,8 @@
 {
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
-    "name": "Library of Arduino Modules",
+    "name": "KiCad Library for Arduino Modules",
     "description": "KiCad Symbol & Footprint Library for Arduino Modules",
-    "description_full": "You need to manually update the library tables in the Library Manager. Refer to the links below for documentation and installation instructions.\n\nThis is a library of KiCad schematic symbols and PCB footprints for common Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.",
+    "description_full": "You need to manually update the library tables in the Library Manager. Refer to the links below for full documentation and installation instructions.\n\nThis is a library of KiCad schematic symbols and PCB footprints for common Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.",
     "identifier": "com.github.alarm-siren.arduino-kicad-library",
     "type": "library",
     "author": {
