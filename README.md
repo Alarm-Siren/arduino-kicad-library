@@ -3,6 +3,8 @@
 # KiCad Symbol & Footprint Library for Arduino Modules
 *Version 3.0.0*
 
+![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-34-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
+
 This is a library of KiCad schematic symbols and PCB footprints for common Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
 Currently included modules:
@@ -24,16 +26,11 @@ Currently included modules:
 - Arduino **MKR Vidor 4000** Socket
 - Arduino **MKR Zero** Socket
 - Arduino **Nano** Socket
-- Arduino **Nano 33 BLE** Socket
-- Arduino **Nano 33 BLE** Tile
-- Arduino **Nano 33 BLE Sense** Socket
-- Arduino **Nano 33 BLE Sense** Tile
-- Arduino **Nano 33 IoT** Socket
-- Arduino **Nano 33 IoT** Tile
-- Arduino **Nano Every** Socket
-- Arduino **Nano Every** Tile
-- Arduino **Nano RP2040 Connect** Socket
-- Arduino **Nano RP2040 Connect** Tile
+- Arduino **Nano 33 BLE** Socket / Tile
+- Arduino **Nano 33 BLE Sense** Socket / Tile
+- Arduino **Nano 33 IoT** Socket / Tile
+- Arduino **Nano Every** Socket / Tile
+- Arduino **Nano RP2040 Connect** Socket / Tile
 - Arduino **Pro Mini** Socket
 - Arduino **Uno R3** Shield
 - Arduino **Uno R3 SMD** Shield
@@ -51,7 +48,7 @@ All are welcome!
 Please open an [Issue](https://github.com/Alarm-Siren/arduino-kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/arduino-kicad-library/pulls), as appropriate.
 
 ## Library Installation
-To add this library to your KiCad Project, do the following steps:
+To add this library to your KiCad Project, carry out the following steps:
 
 ### Manual Download
 1. Go to the [releases page](https://github.com/Alarm-Siren/arduino-kicad-library/releases) and download the most recent version of the "arduino-kicad-library-x.x.x.zip" file.
@@ -85,6 +82,12 @@ To add this library to your KiCad Project, do the following steps:
 
 **Warning**: Do not change the Nicknames from those given in steps 11 and 17 above. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
+## Donations
+
+I really hope you've found this library useful. If you'd like to buy me a beer in thanks for the work I put into it, you can make a donation using the button below:
+
+[![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
+
 ## License & Legal
 Copyright 2017-2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
 
@@ -105,12 +108,6 @@ Original Images: Copyright 2013, [Arduino](https://www.arduino.cc/). Derived Ima
 ### Arduino Trademark
 
 The word "Arduino" is a registered trademark of [Arduino](https://www.arduino.cc/). This trademark is used in this library to refer to Arduino products and to identify Arduino-related non-commercial content, as permitted by Arduino's [trademark guidelines](https://www.arduino.cc/en/trademark). This project is not affiliated with nor endorsed by Arduino.
-
-## Donations
-
-I really hope you've found this library useful. If you'd like to buy me a beer in thanks for the work I put into it, you can make a donation using the button below:
-
-[![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
 
 ## A note about Power and Reset pins
 
