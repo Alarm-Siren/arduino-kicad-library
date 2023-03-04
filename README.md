@@ -3,7 +3,7 @@
 # KiCad Symbol & Footprint Library for Arduino Modules
 *Version 3.1.0*
 
-![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-34-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
+![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-45-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
 
 This is a library of KiCad schematic symbols and PCB footprints for common Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
@@ -52,7 +52,7 @@ To install this library in your copy of KiCad, choose the correct section for yo
 
 ### KiCad 7
 
-**Warning**: Do not change the nickname prefix from that given in step 4 above. If you do so KiCad will not assign the correct footprints to the symbols by default.
+**Warning**: Do not change the nickname prefix from that given in step 4 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
 1. Open KiCad and open the Preferences window at "Preferences" -> "Preferences..."
 2. Select the "Plugin and Content Manager" section in the left-hand pane.
@@ -68,12 +68,13 @@ To install this library in your copy of KiCad, choose the correct section for yo
 12. Close the "Applying Package Changes" window once it has finished.
 13. You should now find that this library is listed in the "Installed" tab.
 14. Close the Plugin and Content Manager.
-15. All done: you are now ready to use these schematic components and footprints in your projects!
+15. You may need to restart KiCad for the library installation to fully take effect. **(Optional)**
+16. All done: you are now ready to use these schematic components and footprints in your projects!
 
 ### KiCad 6
 **Recommendation:** If you can, you should upgrade to KiCad 7.
 
-**Warning**: Do not change the Nicknames from those given in steps 11 and 17 above. If you do so KiCad will not assign the correct footprints to the symbols by default.
+**Warning**: Do not change the Nicknames from those given in steps 12 and 18 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
 1. Open KiCad and click the "Plugin and Content Manager" button.
 2. Select the "KiCad official repository" from the top drop-down box (if not already selected).
