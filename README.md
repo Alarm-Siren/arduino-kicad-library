@@ -29,6 +29,7 @@ Currently included modules:
 - Arduino **Nano** Socket
 - Arduino **Nano 33 BLE** Socket / Tile
 - Arduino **Nano 33 BLE Sense** Socket / Tile
+- Arduino **Nano 33 BLE Sense R2** Socket / Tile
 - Arduino **Nano 33 IoT** Socket / Tile
 - Arduino **Nano Every** Socket / Tile
 - Arduino **Nano RP2040 Connect** Socket / Tile
