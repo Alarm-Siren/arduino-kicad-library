@@ -3,7 +3,7 @@
 # KiCad Symbol & Footprint Library for Arduino Modules
 *Version 4.0.0*
 
-![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-54-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
+![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-56-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
 
 This is a library of KiCad schematic symbols and PCB footprints for common Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
@@ -33,6 +33,7 @@ Currently included modules:
 - Arduino **Nano 33 IoT** Socket / Tile
 - Arduino **Nano Every** Socket / Tile
 - Arduino **Nano RP2040 Connect** Socket / Tile
+- Arduino **Nicla Sense ME** Socket / Tile
 - Arduino **Nicla Vision** Socket / Tile
 - Arduino **Nicla Voice** Socket / Tile
 - Arduino **Pro Mini** Socket
