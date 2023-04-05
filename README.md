@@ -1,7 +1,7 @@
 ![KiCad Library for Arduino banner logo](/resources/banner.png)
 
 # KiCad Symbol & Footprint Library for Arduino Modules
-*Version 4.0.0*
+*Version 4.0.1*
 
 ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-56-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
 
