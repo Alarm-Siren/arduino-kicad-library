@@ -9344,14 +9344,14 @@
       )
     )
   )
-  (symbol "Pro_Mini_Clone_Socket" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "Clone_Pro_Mini_Socket" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "XA" (id 0) (at 0 36.83 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "Pro_Mini_Clone_Socket" (id 1) (at 0 33.02 0)
+    (property "Value" "Clone_Pro_Mini_Socket" (id 1) (at 0 33.02 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "PCM_arduino-library:Pro_Mini_Clone_Socket" (id 2) (at 0 -36.83 0)
+    (property "Footprint" "PCM_arduino-library:Clone_Pro_Mini_Socket" (id 2) (at 0 -36.83 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.addicore.com/Pro-Mini-p/ad249.htm" (id 3) (at 0 -33.02 0)
@@ -9366,7 +9366,7 @@
     (property "ki_fp_filters" "Pro_Mini_Clone_Socket" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "Pro_Mini_Clone_Socket_0_0"
+    (symbol "Clone_Pro_Mini_Socket_0_0"
       (rectangle (start -17.78 30.48) (end 17.78 -29.21)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
@@ -9487,7 +9487,7 @@
         (effects (font (size 1.524 1.524)))
       )
     )
-    (symbol "Pro_Mini_Clone_Socket_0_1"
+    (symbol "Clone_Pro_Mini_Socket_0_1"
       (polyline
         (pts
           (xy 7.62 -1.27)
@@ -9517,12 +9517,12 @@
         (fill (type none))
       )
     )
-    (symbol "Pro_Mini_Clone_Socket_1_0"
+    (symbol "Clone_Pro_Mini_Socket_1_0"
       (text "GPIO" (at 5.08 12.7 900)
         (effects (font (size 1.524 1.524)))
       )
     )
-    (symbol "Pro_Mini_Clone_Socket_1_1"
+    (symbol "Clone_Pro_Mini_Socket_1_1"
       (pin bidirectional line (at -25.4 -1.27 0) (length 7.62)
         (name "A0" (effects (font (size 1.27 1.27))))
         (number "A0" (effects (font (size 1.27 1.27))))
@@ -9665,14 +9665,14 @@
       )
     )
   )
-  (symbol "Pro_Mini_Clone_Socket_NoSPH" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "Clone_Pro_Mini_Socket_NoSPH" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "XA" (id 0) (at 0 36.83 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "Pro_Mini_Clone_Socket_NoSPH" (id 1) (at 0 33.02 0)
+    (property "Value" "Clone_Pro_Mini_Socket_NoSPH" (id 1) (at 0 33.02 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "PCM_arduino-library:Pro_Mini_Clone_Socket_NoSPH" (id 2) (at 0 -36.83 0)
+    (property "Footprint" "PCM_arduino-library:Clone_Pro_Mini_Socket_NoSPH" (id 2) (at 0 -36.83 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.addicore.com/Pro-Mini-p/ad249.htm" (id 3) (at 0 -33.02 0)
@@ -9687,7 +9687,7 @@
     (property "ki_fp_filters" "Pro_Mini_Clone_Socket_NoSPH" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "Pro_Mini_Clone_Socket_NoSPH_0_0"
+    (symbol "Clone_Pro_Mini_Socket_NoSPH_0_0"
       (rectangle (start -17.78 30.48) (end 17.78 -29.21)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
@@ -9788,7 +9788,7 @@
         (effects (font (size 1.524 1.524)))
       )
     )
-    (symbol "Pro_Mini_Clone_Socket_NoSPH_0_1"
+    (symbol "Clone_Pro_Mini_Socket_NoSPH_0_1"
       (polyline
         (pts
           (xy 7.62 -1.27)
@@ -9818,12 +9818,12 @@
         (fill (type none))
       )
     )
-    (symbol "Pro_Mini_Clone_Socket_NoSPH_1_0"
+    (symbol "Clone_Pro_Mini_Socket_NoSPH_1_0"
       (text "GPIO" (at 5.08 12.7 900)
         (effects (font (size 1.524 1.524)))
       )
     )
-    (symbol "Pro_Mini_Clone_Socket_NoSPH_1_1"
+    (symbol "Clone_Pro_Mini_Socket_NoSPH_1_1"
       (pin bidirectional line (at -25.4 -1.27 0) (length 7.62)
         (name "A0" (effects (font (size 1.27 1.27))))
         (number "A0" (effects (font (size 1.27 1.27))))
