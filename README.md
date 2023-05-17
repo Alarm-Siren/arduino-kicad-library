@@ -1,7 +1,7 @@
 ![KiCad Library for Arduino banner logo](/resources/banner.png)
 
 # KiCad Symbol & Footprint Library for Arduino Modules
-*Version 4.0.1*
+*Version 4.1.0*
 
 ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-56-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
 
@@ -14,7 +14,7 @@ Currently included modules:
 - Arduino **Leonardo** Shield
 - Arduino **M0** Shield
 - Arduino **M0 Pro** Shield
-- Arduino **Mega 2560** Shield
+- Arduino **Mega 2560 R3** Shield
 - Arduino **Micro** Socket
 - Arduino **Mini** Socket
 - Arduino **MKR 1000 WiFi** Socket
@@ -48,7 +48,7 @@ Currently included modules:
 *"Shield" means the module is designed to plug in from beneath your PCB. "Socket" means the module is designed to plug in from above your PCB. "Tile" means the module is designed to be soldered directly on to your PCB using surface-mount pads.*
 
 ## KiCad Version Compatibility
-This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.0. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
+This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.2. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
 
 ## Comments, Requests, Bugs & Contributions
 All are welcome!

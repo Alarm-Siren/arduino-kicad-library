@@ -2702,14 +2702,14 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "Arduino_Mega2560_Shield" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "Arduino_Mega2560_R3_Shield" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "XA" (id 0) (at 0 -62.23 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "Arduino_Mega2560_Shield" (id 1) (at 0 -66.04 0)
+    (property "Value" "Arduino_Mega2560_R3_Shield" (id 1) (at 0 -66.04 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "PCM_arduino-library:Arduino_Mega2560_Shield" (id 2) (at 0 -73.66 0)
+    (property "Footprint" "PCM_arduino-library:Arduino_Mega2560_R3_Shield" (id 2) (at 0 -73.66 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://docs.arduino.cc/hardware/mega-2560" (id 3) (at 0 -69.85 0)
@@ -2718,13 +2718,13 @@
     (property "ki_keywords" "Arduino MPU Shield" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Shield for Arduino Mega 2560" (id 5) (at 0 0 0)
+    (property "ki_description" "Shield for Arduino Mega 2560 R3" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Arduino_Mega2560_Shield" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "Arduino_Mega2560_Shield_0_0"
+    (symbol "Arduino_Mega2560_R3_Shield_0_0"
       (rectangle (start -25.4 -58.42) (end 25.4 58.42)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
@@ -2914,7 +2914,7 @@
         (effects (font (size 1.524 1.524)))
       )
     )
-    (symbol "Arduino_Mega2560_Shield_1_0"
+    (symbol "Arduino_Mega2560_R3_Shield_1_0"
       (rectangle (start 12.7 -54.61) (end 12.7 -3.81)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -2927,7 +2927,7 @@
         (effects (font (size 1.524 1.524)))
       )
     )
-    (symbol "Arduino_Mega2560_Shield_1_1"
+    (symbol "Arduino_Mega2560_R3_Shield_1_1"
       (pin power_out line (at -33.02 -41.91 0) (length 7.62)
         (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "3V3" (effects (font (size 1.27 1.27))))
