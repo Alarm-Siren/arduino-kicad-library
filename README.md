@@ -133,27 +133,28 @@ Original Images: Copyright 2013, [Arduino](https://www.arduino.cc/). Derived Ima
 
 The word "Arduino" is a registered trademark of [Arduino](https://www.arduino.cc/). This trademark is used in this library to refer to Arduino products and to identify Arduino-related non-commercial content, as permitted by Arduino's [trademark guidelines](https://www.arduino.cc/en/trademark). This project is not affiliated with nor endorsed by Arduino.
 
-## A note about Power and Reset pins
+## FAQ
 
-### Power
-On Arduino modules it is not possible to categorically state the appropriate electrical type for some power pins, as that depends on exactly which module you're using and how it's connected in your design. Sometimes a pin must necessarily be a power input or output, or is internally disconnected by default, but some pins may be either depending on how you are using the module.
+Answers to some common questions about this library.
 
-Regardless, I needed to make a decision about what electrical type to apply to these pins. I could use something like "passive" or "unspecified", but then KiCad's electrical rules checker (ERC) tool would not be effective in catching errors on these pins at all, whilst using "power output" can mean it objects to you joining pins together even when that's okay in some situations.
+### Why do the footprints not have an `Edge.Cuts` outline?
 
-Therefore, I have adopted the following methodology for deciding the electrical type of a given power pin:
- 1. Where I have been able to determine that a given power pin is internally disconnected by default, I have set the electrical type to "Unconnected".
- 2. Where I have been able to determine that a given power pin must necessarily be a Power Output, I have set the electrical type to "Power Output". 
- 3. In any other circumstance, or where I am lacking information, I have set the electrical type to "Power Input" as this presents the least issues. This means if you're actually using any of these power pins as 'Power Outputs' in your design, by default the ERC will complain that the relevant nets are undriven. To fix this you will need to add the special "PWR_FLAG" component to the affected net.
- 
-Two concrete examples:
- - For the Arduino Nano 33 BLE, the 5V pin is disconnected by default so it is assigned "Unconnected". The GND and 3.3V pins can be either inputs or outputs depending on how the module is being powered, so they are assigned "Power Input". VIN can only ever be used as an input, so it too is assigned "Power Input".
- - For the Arduino 101, both the 5V and 3.3V rails are used by internal circuitry of the module, and the module will create its own 3.3V rail from the 5V rail, thus the 3.3V pins must necessarily be a "Power Output" and is assigned as such. The GND, 5V and VIN pins can be either inputs or outputs depending on how the module is being powered, so they are assigned "Power Input".
+If I put in an `Edge.Cuts` outline, then those users who want to have a PCB larger than the module footprint would have to modify the footprint to do so. In my experience, it is far more common for users to want a PCB larger than the module anyway, so I prefer to cater to those users. If you want your PCB to be the same size and shape as the Arduino module, you can trace the `F.Silkscreen` or `B.Silkscreen` layer (as appropriate) out in the `Edge.Cuts` layer yourself, or you can modify the footprint to change the outline from `F.Silkscreen` or `B.Silkscreen` layer to `Edge.Cuts`.
 
-### Reset
-Reset pins on Arduino modules have interesting electrical characteristics which mean that no KiCad electrical type exactly matches their functionality. I settled on "open collector" as the nearest candidate, but unlike a true open collector pin on an integrated circuit, the reset pins on Arduino modules have an internal weak pull-up and a reset button that can strongly pull low, so your design needs to be able to cope with all these situations. In other words, if you use the reset pin as an input to your PCB then you do not need to add a pull-up (doing so will actually make it less responsive). Conversely, if you want to drive the reset line in order to reset the module from your PCB, you need to ensure that you only ever pull it low: if you pull it high at the same time as an unwitting user hits the physical reset button, you've created a short between power and ground through the microcontroller, and that would be very bad.
+### Why do the Nicla Vision and Nicla Voice tile footprints have cut-outs?
 
-### TL;DR:
+The cut-outs are necessary to accommodate components on the back of those modules; without them the components would physically prevent you from getting the module's pads down to the footprint's SMD pads.
 
-*The KiCad ERC cannot catch all the possible electrical errors on your design as it doesn't natively support the reset and power pins' electrical types. Even if the ERC says it's OK, double check it manually.*
+### Why does the whole footprint have an `F.Courtyard` or `B.Courtyard` outline? I can't place my components where I need to!
 
-*If the ERC says that your power pins are undriven, first manually check they are being driven. If they are driven, then add a "PWR_FLAG" component to the net to make the error go away.*
+Firstly, this does not stop you from placing your components wherever you want. It does mean that the KiCad DRC will, by default, report errors or warnings in some circumstances because the module footprint and your circuit's footprints' courtyards are overlapping, but you can ignore or disable these errors/warnings without issue.
+
+Secondly, the intention is that it acts as a warning to the designer that they've put components in the 'danger zone' between their PCB and the Module. I do not model all of the tall components on the module, so it is possible that a user might unknowingly place their own tall component in a position that would conflict with one on the module. My hope is that the DRC errors/warnings will flag this potential problem to the designer to manually check that their placement does not conflict with the module.
+
+In principle I'm open to marking the taller components specifically, which would remove this issue, but this is a lot of work and requires data I don't have access to for all the modules.
+
+### Why is this Power Pin set to Power Input/Power Output/Unconnected? I get DRC errors because of it!
+
+The short answer is that some power pins on some modules can be used as either inputs or outputs, depending on your circuit design / where you're powering the assembly from.
+
+For those pins where I've been able to categorically confirm that the given power pin is Unconnected by default, or must necessarily be a Power Input or a Power Output, I have set it as such. For those pins that can be used as either an input or output, I have set it to Power Input as this is the more flexible option whilst still preserving some element of DRC capability. If you're using one of these Power Input pins as a Power Output from the module, you'll need to add the special "PWR_FLAG" component to the affected net to make the DRC error go away.
