@@ -3,7 +3,7 @@
   (tedit 5A8605D3)
   (descr "https://docs.arduino.cc/hardware/mega-2560")
   (attr through_hole)
-  (fp_text reference "XA**" (at 2.54 -1.016) (layer "F.SilkS")
+  (fp_text reference "A**" (at 2.54 -1.016) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 901f647f-3550-4ee2-b85a-c0e6eb7f056b)
   )
