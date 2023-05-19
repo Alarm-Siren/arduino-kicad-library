@@ -3,7 +3,7 @@
 # KiCad Symbol & Footprint Library for Arduino Modules
 *Version 4.1.0*
 
-![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-58-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
+![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-57-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
 
 This is a library of KiCad schematic symbols and PCB footprints for most Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
@@ -43,7 +43,7 @@ Currently included modules:
 - Arduino **Uno R3 SMD** Shield
 - Arduino **Uno WiFi R2** Shield
 - Arduino **Zero** Shield
-- Clone **Mega 2560 Pro** Shield / Socket
+- Clone **Mega 2560 Pro** Socket
 - Clone **Pro Mini** Socket
 
 *"Shield" means the module is designed to plug in from beneath your PCB. "Socket" means the module is designed to plug in from above your PCB. "Tile" means the module is designed to be soldered directly on to your PCB using surface-mount pads.*
