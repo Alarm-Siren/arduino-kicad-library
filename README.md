@@ -137,6 +137,14 @@ The word "Arduino" is a registered trademark of [Arduino](https://www.arduino.cc
 
 Answers to some common questions about this library.
 
+### Is this library in active development?
+
+Yes. For the foreseeable future, I will be providing support, bug-fixes and updating the library with any new Arduino modules as they are released.
+
+### What does the license exception in the License & Legal section mean?
+
+This library uses the same license as KiCad's own built-in parts library does, including the exception. The KiCad Libraries team have a [page which explains the meaning of the exception](https://www.kicad.org/libraries/license/). My version of the exception uses slightly better wording, but the effect is the same.
+
 ### Why do the footprints not have an `Edge.Cuts` outline?
 
 If I put in an `Edge.Cuts` outline, then those users who want to have a PCB larger than the module footprint would have to modify the footprint to do so. In my experience, it is far more common for users to want a PCB larger than the module anyway, so I prefer to cater to those users. If you want your PCB to be the same size and shape as the Arduino module, you can trace the `F.Silkscreen` or `B.Silkscreen` layer (as appropriate) out in the `Edge.Cuts` layer yourself, or you can modify the footprint to change the outline from `F.Silkscreen` or `B.Silkscreen` layer to `Edge.Cuts`.
