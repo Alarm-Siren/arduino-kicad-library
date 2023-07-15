@@ -3,7 +3,7 @@
 # KiCad Symbol & Footprint Library for Arduino Modules
 *Version 4.1.0*
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-57-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-58-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
 
 This is a library of KiCad schematic symbols and PCB footprints for most Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
@@ -41,6 +41,7 @@ Currently included modules:
 - Arduino **Uno R2** Shield
 - Arduino **Uno R3** Shield
 - Arduino **Uno R3 SMD** Shield
+- Arduino **Uno R4 Minima** Shield
 - Arduino **Uno WiFi R2** Shield
 - Arduino **Zero** Shield
 - Clone **Mega 2560 Pro** Socket
@@ -157,7 +158,7 @@ The cut-outs are necessary to accommodate components on the back of those module
 
 Firstly, this does not stop you from placing your components wherever you want. It does mean that the KiCad DRC will, by default, report errors or warnings in some circumstances because the module footprint and your circuit's footprints' courtyards are overlapping, but you can ignore or disable these errors/warnings without issue.
 
-Secondly, the intention is that it acts as a warning to the designer that they've put components in the 'danger zone' between their PCB and the Module. I do not model all of the tall components on the module, so it is possible that a user might unknowingly place their own tall component in a position that would conflict with one on the module. My hope is that the DRC errors/warnings will flag this potential problem to the designer to manually check that their placement does not conflict with the module.
+Secondly, the intention is that it acts as a warning to the user that they've put components in the 'danger zone' between their PCB and the Module. I do not model all of the tall components on the module, so it is possible that a user might unknowingly place their own tall component in a position that would conflict with one on the module. My hope is that the DRC errors/warnings will flag this potential problem to the user to manually check that their placement does not conflict with the module.
 
 In principle I'm open to marking the taller components specifically, which would remove this issue, but this is a lot of work and requires data I don't have access to for all the modules.
 
