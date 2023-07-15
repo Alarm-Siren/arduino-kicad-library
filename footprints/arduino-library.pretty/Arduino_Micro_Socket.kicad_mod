@@ -3,7 +3,7 @@
   (tedit 5A860566)
   (descr "https://docs.arduino.cc/hardware/micro")
   (attr through_hole)
-  (fp_text reference "XA**" (at 2.54 -19.05) (layer "F.SilkS")
+  (fp_text reference "A**" (at 2.54 -19.05) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 16f32679-7d70-46ba-a272-2ece67ea1d01)
   )

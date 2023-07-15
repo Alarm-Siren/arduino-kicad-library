@@ -3,7 +3,7 @@
   (tedit 5A8605F5)
   (descr "https://docs.arduino.cc/retired/boards/arduino-m0-pro")
   (attr through_hole)
-  (fp_text reference "XA**" (at 2.54 -54.356) (layer "B.SilkS")
+  (fp_text reference "A**" (at 2.54 -54.356) (layer "B.SilkS")
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     (tstamp 2ad0c6da-ec08-432a-b345-3dcc07bfe571)
   )

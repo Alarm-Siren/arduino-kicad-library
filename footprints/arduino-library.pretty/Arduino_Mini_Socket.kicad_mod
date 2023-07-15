@@ -3,7 +3,7 @@
   (tedit 5A87789E)
   (descr "https://docs.arduino.cc/retired/boards/arduino-mini-05")
   (attr through_hole)
-  (fp_text reference "XA**" (at 2.54 -31.496) (layer "F.SilkS")
+  (fp_text reference "A**" (at 2.54 -31.496) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2d6a30bb-ae01-4535-880b-616de8fedfc8)
   )
