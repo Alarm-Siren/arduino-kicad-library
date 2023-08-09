@@ -1,7 +1,7 @@
 ![KiCad Library for Arduino banner logo](/resources/banner.png)
 
 # KiCad Symbol & Footprint Library for Arduino Modules
-*Version 4.1.0*
+*Version 4.2.0*
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-59-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
 
@@ -135,6 +135,10 @@ Original Images: Copyright 2013, [Arduino](https://www.arduino.cc/). Derived Ima
 
 The word "Arduino" is a registered trademark of [Arduino](https://www.arduino.cc/). This trademark is used in this library to refer to Arduino products and to identify Arduino-related non-commercial content, as permitted by Arduino's [trademark guidelines](https://www.arduino.cc/en/trademark). This project is not affiliated with nor endorsed by Arduino.
 
+### Warranty Disclaimer
+
+This library is provided in the hope that it will be useful, but without any warranties of any kind. Your use of this library is at your own risk. For the full warranty disclaimer, see Section 5 of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
 ## FAQ
 
 Answers to some common questions about this library.
@@ -167,4 +171,4 @@ In principle I'm open to marking the taller components specifically, which would
 
 The short answer is that some power pins on some modules can be used as either inputs or outputs, depending on your circuit design / where you're powering the assembly from.
 
-For those pins where I've been able to categorically confirm that the given power pin is Unconnected by default, or must necessarily be a Power Input or a Power Output, I have set it as such. For those pins that can be used as either an input or output, I have set it to Power Input as this is the more flexible option whilst still preserving some element of DRC capability. If you're using one of these Power Input pins as a Power Output from the module, you'll need to add the special "PWR_FLAG" component to the affected net to make the DRC error go away.
+For those pins where I've been able to categorically confirm that the given power pin is `Unconnected` by default, or must necessarily be a `Power Input` or a `Power Output`, I have set it as such. For those pins that can be used as either an input or output, I have set it to `Power Input` as this is the more flexible option whilst still preserving some element of DRC capability. If you're using one of these `Power Input` pins as a `Power Output` from the module, you'll need to add the special `PWR_FLAG` component to the affected net to make the DRC error go away.
