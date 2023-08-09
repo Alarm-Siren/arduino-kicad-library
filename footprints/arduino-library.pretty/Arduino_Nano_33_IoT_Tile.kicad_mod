@@ -12,7 +12,7 @@
     (tstamp 0543a795-8418-457f-9c9c-5841f52804b9)
   )
   (fp_text user "D0" (at -12.065 -36.83 -90 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.5 0.5) (thickness 0.075)))
+    (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8c5e6122-e7f0-4945-ad6a-232d882b0b9c)
   )
   (fp_text user "USB" (at 0 0.725) (layer "F.Fab")
