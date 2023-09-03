@@ -12,7 +12,7 @@
     (tstamp 48bfe972-ebf0-440e-aa4d-b44fbee5d610)
   )
   (fp_text user "D0" (at 26.035 11.43 90 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.5 0.5) (thickness 0.075)))
+    (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1f180ac7-1687-4804-923d-66f7f687cb0c)
   )
   (fp_text user "ESLOV" (at 16.256 20.447) (layer "F.Fab")
