@@ -6832,7 +6832,7 @@
     (property "Value" "Arduino_Nano_RP2040_Connect" (at 2.54 -24.13 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "Module:Arduino_Nano" (at 0 0 0)
+    (property "Footprint" "PCM_arduino-library:Arduino_Nano_SMD" (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://docs.arduino.cc/hardware/nano-rp2040-connect" (at 0 0 0)
