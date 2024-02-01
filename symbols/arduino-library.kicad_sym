@@ -8060,6 +8060,38 @@
     (symbol "Arduino_Opta_0_1"
       (polyline
         (pts
+          (xy 5.334 -12.446)
+          (xy 5.334 -12.7)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.969 -11.938)
+          (xy 5.969 -13.208)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.604 -13.843)
+          (xy 6.604 -11.303)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.604 -12.573)
+          (xy 7.874 -12.573)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy 12.446 14.478)
           (xy 12.446 13.335)
         )
@@ -8254,6 +8286,10 @@
       (pin bidirectional line (at 43.18 -22.86 180) (length 7.62)
         (name "B+" (effects (font (size 1.27 1.27))))
         (number "B+" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -7.62 -12.7 0) (length 7.62)
+        (name "FE" (effects (font (size 1.27 1.27))))
+        (number "FE" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 43.18 -20.32 180) (length 7.62)
         (name "GND" (effects (font (size 1.27 1.27))))
