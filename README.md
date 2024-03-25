@@ -65,15 +65,15 @@ To install this library in your copy of KiCad, choose the correct section for yo
 
 **Warning**: Do not change the nickname prefix from that given in step 4 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
-1. Open KiCad and open the Preferences window at "Preferences" -> "Preferences..."
-2. Select the "Plugin and Content Manager" section in the left-hand pane.
+1. Open KiCad and open the Preferences window at "Preferences" -> "Preferences..." (On macOS, "KiCad" -> "Settings...")
+2. Select the "Plugin and Content Manager" section in the left-hand pane (or "Packages and Updates").
 3. Ensure that the "Automatically add installed libraries to the global lib table" option is ticked.
 4. Ensure that the "Library nickname prefix" is set to "PCM_".
 5. Ensuring that the "Check for package updates on startup" option is ticked is recommended. **(Optional)**
 6. Click "OK" to close the Preferences window.
 7. Click the "Plugin and Content Manager" button.
 8. Select the "KiCad official repository" from the top drop-down box (if not already selected).
-9. Go the Libraries tab and locate the "KiCad Library for Arduino Modules" in the list.
+9. Go to the Libraries tab and locate the "KiCad Library for Arduino Modules" in the list.
 10. Click the "Install" button for that entry in the list.
 11. Click "Apply Pending Changes".
 12. Close the "Applying Package Changes" window once it has finished.
