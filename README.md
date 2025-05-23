@@ -1,58 +1,14 @@
 ![KiCad Library for Arduino banner logo](/resources/banner.png)
 
 # KiCad Symbol & Footprint Library for Arduino Modules
-*Version 4.2.0*
+*Version 4.2.1*
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-61-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
 
 This is a library of KiCad schematic symbols and PCB footprints for most Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
-Currently included modules:
-- Arduino **101** Shield
-- Arduino **Due** Shield
-- Arduino **Giga R1 WiFi** Shield
-- Arduino **Leonardo** Shield
-- Arduino **M0** Shield
-- Arduino **M0 Pro** Shield
-- Arduino **Mega 2560 R3** Shield
-- Arduino **Micro** Socket
-- Arduino **Mini** Socket
-- Arduino **MKR 1000 WiFi** Socket
-- Arduino **MKR WiFi 1010** Socket
-- Arduino **MKR FOX 1200** Socket
-- Arduino **MKR WAN 1300** Socket
-- Arduino **MKR WAN 1310** Socket
-- Arduino **MKR GSM 1400** Socket
-- Arduino **MKR NB 1500** Socket
-- Arduino **MKR Vidor 4000** Socket
-- Arduino **MKR Zero** Socket
-- Arduino **Nano** Socket
-- Arduino **Nano 33 BLE** Socket / Tile
-- Arduino **Nano 33 BLE Sense** Socket / Tile
-- Arduino **Nano 33 BLE Sense R2** Socket / Tile
-- Arduino **Nano 33 IoT** Socket / Tile
-- Arduino **Nano ESP32** Socket / Tile
-- Arduino **Nano Every** Socket / Tile
-- Arduino **Nano RP2040 Connect** Socket / Tile
-- Arduino **Nicla Sense ME** Socket / Tile
-- Arduino **Nicla Vision** Socket / Tile
-- Arduino **Nicla Voice** Socket / Tile
-- Arduino **Pro Mini** Socket
-- Arduino **Uno R1** Shield
-- Arduino **Uno R2** Shield
-- Arduino **Uno R3** Shield
-- Arduino **Uno R3 SMD** Shield
-- Arduino **Uno R4 Minima** Shield
-- Arduino **Uno R4 WiFi** Shield
-- Arduino **Uno WiFi R2** Shield
-- Arduino **Zero** Shield
-- Clone **Mega 2560 Pro** Socket
-- Clone **Pro Mini** Socket
-
-*"Shield" means the module is designed to plug in from beneath your PCB. "Socket" means the module is designed to plug in from above your PCB. "Tile" means the module is designed to be soldered directly on to your PCB using surface-mount pads.*
-
 ## KiCad Version Compatibility
-This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.2. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
+This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.11 and 7.0.11. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
 
 ## Comments, Requests, Bugs & Contributions
 All are welcome!
@@ -111,12 +67,12 @@ To install this library in your copy of KiCad, choose the correct section for yo
 
 ## Donations
 
-I really hope you've found this library useful. If you'd like to buy me a beer in thanks for the work I put into it, you can make a donation using the button below:
+I really hope you've found this library useful. If you'd like to buy me a coffee in thanks for the work I put into it, you can make a donation using the button below:
 
-[![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
+[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=alarm.siren&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/alarm.siren)
 
 ## License & Legal
-Copyright 2017-2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
+Copyright 2017-2025, [Nicholas Parks Young](https://github.com/Alarm-Siren).
 
 Except as otherwise noted, all content of this library is licensed under the 
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), with the following additional exception:
@@ -150,7 +106,54 @@ Yes. For the foreseeable future, I will be providing support, bug-fixes and upda
 
 ### What does the license exception in the License & Legal section mean?
 
-This library uses the same license as KiCad's own built-in parts library does, including the exception. The KiCad Libraries team have a [page which explains the meaning of the exception](https://www.kicad.org/libraries/license/). My version of the exception uses slightly better wording, but the effect is the same.
+This library uses the same license as KiCad's own built-in parts library does, including the exception. The KiCad Libraries team have a [page which explains the meaning of the exception](https://www.kicad.org/libraries/license/). My version of the exception uses slightly improved wording, but the effect is the same.
+
+### Can you give me a full list of the modules included in this library?
+
+I sure can!
+
+- Arduino **101** Shield
+- Arduino **Due** Shield
+- Arduino **Giga R1 WiFi** Shield
+- Arduino **Leonardo** Shield
+- Arduino **M0** Shield
+- Arduino **M0 Pro** Shield
+- Arduino **Mega 2560 R3** Shield
+- Arduino **Micro** Socket
+- Arduino **Mini** Socket
+- Arduino **MKR 1000 WiFi** Socket
+- Arduino **MKR WiFi 1010** Socket
+- Arduino **MKR FOX 1200** Socket
+- Arduino **MKR WAN 1300** Socket
+- Arduino **MKR WAN 1310** Socket
+- Arduino **MKR GSM 1400** Socket
+- Arduino **MKR NB 1500** Socket
+- Arduino **MKR Vidor 4000** Socket
+- Arduino **MKR Zero** Socket
+- Arduino **Nano** Socket
+- Arduino **Nano 33 BLE** Socket / Tile
+- Arduino **Nano 33 BLE Sense** Socket / Tile
+- Arduino **Nano 33 BLE Sense R2** Socket / Tile
+- Arduino **Nano 33 IoT** Socket / Tile
+- Arduino **Nano ESP32** Socket / Tile
+- Arduino **Nano Every** Socket / Tile
+- Arduino **Nano RP2040 Connect** Socket / Tile
+- Arduino **Nicla Sense ME** Socket / Tile
+- Arduino **Nicla Vision** Socket / Tile
+- Arduino **Nicla Voice** Socket / Tile
+- Arduino **Pro Mini** Socket
+- Arduino **Uno R1** Shield
+- Arduino **Uno R2** Shield
+- Arduino **Uno R3** Shield
+- Arduino **Uno R3 SMD** Shield
+- Arduino **Uno R4 Minima** Shield
+- Arduino **Uno R4 WiFi** Shield
+- Arduino **Uno WiFi R2** Shield
+- Arduino **Zero** Shield
+- Clone **Mega 2560 Pro** Socket
+- Clone **Pro Mini** Socket
+
+*"Shield" means the module is designed to plug in from beneath your PCB. "Socket" means the module is designed to plug in from above your PCB. "Tile" means the module is designed to be soldered directly on to your PCB using surface-mount pads.*
 
 ### Why do the footprints not have an `Edge.Cuts` outline?
 
