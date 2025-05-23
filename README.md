@@ -73,7 +73,7 @@ To install this library in your copy of KiCad, choose the correct section for yo
 
 I really hope you've found this library useful. If you'd like to buy me a coffee in thanks for the work I put into it, you can make a donation using the button below:
 
-[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=💡&slug=alarm.siren&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/alarm.siren)
+[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=alarm.siren&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/alarm.siren)
 
 ## License & Legal
 Copyright 2017-2025, [Nicholas Parks Young](https://github.com/Alarm-Siren).
