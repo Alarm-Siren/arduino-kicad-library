@@ -8,11 +8,11 @@
 This is a library of KiCad schematic symbols and PCB footprints for most Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
 ## KiCad Version Compatibility
-This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.11 and 7.0.11. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
+This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.11, 7.0.11, 8.0.9 and 9.0.2. Note that the installation procedure is different depending on your version of KiCad: please see the [Library Installation](#library-installation) section below.
 
 ### DEPRECATION NOTICE
 
-The 4.x branch of the Kicad Library for Arduino will cease being supported as of 30th June 2025. All future development of this library will continue on the 5.x branch, which will include breaking changes from the 4.x branch and not be compatible with versions of Kicad older than Kicad 9.
+The 4.x branch of the KiCad Library for Arduino will cease being supported as of 30th June 2025. All future development of this library will continue on the 5.x branch, which will include breaking changes from the 4.x branch and not be compatible with versions of KiCad older than KiCad 9.
 
 ## Comments, Requests, Bugs & Contributions
 All are welcome!
@@ -21,7 +21,7 @@ Please open an [Issue](https://github.com/Alarm-Siren/arduino-kicad-library/issu
 ## Library Installation
 To install this library in your copy of KiCad, choose the correct section for your version of KiCad and follow the steps given. These instructions only cover automated installation using KiCad's built-in Package and Content Manager (PCM); manual installation is possible but not supported.
 
-### KiCad 7
+### KiCad 7, 8 and 9
 
 **Warning**: Do not change the nickname prefix from that given in step 4 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
@@ -43,7 +43,7 @@ To install this library in your copy of KiCad, choose the correct section for yo
 16. All done: you are now ready to use these schematic components and footprints in your projects!
 
 ### KiCad 6
-**Recommendation:** If you can, you should upgrade to KiCad 7.
+**Recommendation:** If you can, you should upgrade to KiCad 9 or later.
 
 **Warning**: Do not change the Nicknames from those given in steps 12 and 18 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
