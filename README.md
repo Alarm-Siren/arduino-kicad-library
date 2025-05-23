@@ -10,6 +10,10 @@ This is a library of KiCad schematic symbols and PCB footprints for most Arduino
 ## KiCad Version Compatibility
 This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.11 and 7.0.11. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
 
+### DEPRECATION NOTICE
+
+The 4.x branch of the Kicad Library for Arduino will cease being supported as of 30th June 2025. All future development of this library will continue on the 5.x branch, which will include breaking changes from the 4.x branch and not be compatible with versions of Kicad older than Kicad 9.
+
 ## Comments, Requests, Bugs & Contributions
 All are welcome!
 Please open an [Issue](https://github.com/Alarm-Siren/arduino-kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/arduino-kicad-library/pulls), as appropriate.
