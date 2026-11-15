@@ -24,7 +24,7 @@ Please open an appropriate [Issue](https://github.com/Alarm-Siren/arduino-kicad-
 ## Library Installation
 To install this library in your copy of KiCad, choose the correct section for your version of KiCad and follow the steps given. These instructions only cover automated installation using KiCad's built-in Package and Content Manager (PCM); manual installation is possible but not supported.
 
-### KiCad 7
+### KiCad 7+
 
 **Warning**: Do not change the nickname prefix from that given in step 4 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
@@ -46,7 +46,7 @@ To install this library in your copy of KiCad, choose the correct section for yo
 16. All done: you are now ready to use these schematic components and footprints in your projects!
 
 ### KiCad 6
-**Recommendation:** If you can, you should upgrade to KiCad 7.
+**Recommendation:** If you can, you should upgrade to KiCad 7 or later.
 
 **Warning**: Do not change the Nicknames from those given in steps 12 and 18 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
