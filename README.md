@@ -8,20 +8,20 @@
 This is a library of KiCad schematic symbols and PCB footprints for most Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
 ## KiCad Version Compatibility
-This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.11, 7.0.11, 8.0.9 and 9.0.2. Note that the installation procedure is different depending on your version of KiCad: please see the [Library Installation](#library-installation) section below.
+This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.11, 7.0.11, 8.0.9, 9.0.8 and 10.0.8. Note that the installation procedure is different depending on your version of KiCad: please see the [Library Installation](#library-installation) section below.
 
 ### DEPRECATION NOTICE
 
-The 4.x branch of the KiCad Library for Arduino will cease being supported as of 30th June 2025. All future development of this library will continue on the 5.x branch, which will include breaking changes from the 4.x branch and not be compatible with versions of KiCad older than KiCad 9.
+The 4.x branch of the KiCad Library for Arduino will cease being supported as of 1st January 2027. All future development of this library will continue on the 5.x branch, which will include breaking changes from the 4.x branch and not be compatible with versions of KiCad older than KiCad 10.
 
 ## Comments, Requests, Bugs & Contributions
 All are welcome!
-Please open an [Issue](https://github.com/Alarm-Siren/arduino-kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/arduino-kicad-library/pulls), as appropriate.
+Please open an appropriate [Issue](https://github.com/Alarm-Siren/arduino-kicad-library/issues) to discuss. Please note that due to technical limitations, in most cases direct pull requests will not be accepted on this repository going forward - instead I will need to manually incorporate your changes into the mainline.
 
 ## Library Installation
 To install this library in your copy of KiCad, choose the correct section for your version of KiCad and follow the steps given. These instructions only cover automated installation using KiCad's built-in Package and Content Manager (PCM); manual installation is possible but not supported.
 
-### KiCad 7, 8 and 9
+### KiCad 7, 8, 9 and 10
 
 **Warning**: Do not change the nickname prefix from that given in step 4 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
@@ -43,7 +43,7 @@ To install this library in your copy of KiCad, choose the correct section for yo
 16. All done: you are now ready to use these schematic components and footprints in your projects!
 
 ### KiCad 6
-**Recommendation:** If you can, you should upgrade to KiCad 9 or later.
+**Recommendation:** If you can, you should upgrade to KiCad 10 or later.
 
 **Warning**: Do not change the Nicknames from those given in steps 12 and 18 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
@@ -76,7 +76,7 @@ I really hope you've found this library useful. If you'd like to buy me a coffee
 [![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=alarm.siren&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/alarm.siren)
 
 ## License & Legal
-Copyright 2017-2025, [Nicholas Parks Young](https://github.com/Alarm-Siren).
+Copyright 2017-2026, [Nicholas Parks Young](https://github.com/Alarm-Siren).
 
 Except as otherwise noted, all content of this library is licensed under the 
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), with the following additional exception:
@@ -107,6 +107,10 @@ Answers to some common questions about this library.
 ### Is this library in active development?
 
 Yes. For the foreseeable future, I will be providing support, bug-fixes and updating the library with any new Arduino modules as they are released.
+
+### Why don't you accept direct pull requests?
+
+Because KiCad files are not really plaintext, and they change format between both major and minor versions of Kicad. Consequently, unless you have made your edits using *exactly* the same version KiCad as I'm using in the mainline, the two branches become impossible to merge.
 
 ### What does the license exception in the License & Legal section mean?
 
