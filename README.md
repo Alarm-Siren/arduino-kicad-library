@@ -7,6 +7,8 @@
 
 This is a library of KiCad schematic symbols and PCB footprints for most Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
+Quick Links: [Install Instructions](https://github.com/Alarm-Siren/arduino-kicad-library#library-installation) | [List of Included Arduino Modules](https://github.com/Alarm-Siren/arduino-kicad-library#can-you-give-me-a-full-list-of-the-modules-included-in-this-library) | [License](https://github.com/Alarm-Siren/arduino-kicad-library#license--legal) | [Donations](https://github.com/Alarm-Siren/arduino-kicad-library#donations) | [FAQ](https://github.com/Alarm-Siren/arduino-kicad-library#faq)
+
 ## KiCad Version Compatibility
 This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.11, 7.0.11, 8.0.9, 9.0.8 and 10.0.8. Note that the installation procedure is different depending on your version of KiCad: please see the [Library Installation](#library-installation) section below.
 
@@ -110,7 +112,7 @@ Yes. For the foreseeable future, I will be providing support, bug-fixes and upda
 
 ### Why don't you accept direct pull requests?
 
-Because KiCad files are not really plaintext, and they change format between both major and minor versions of Kicad. Consequently, unless you have made your edits using *exactly* the same version KiCad as I'm using in the mainline, the two branches become impossible to merge.
+KiCad files are not really plaintext, and they change format between both major and minor versions of KiCad. Consequently, unless you have made your edits using *exactly* the same version KiCad as I'm using in the mainline, the two branches become impossible to merge.
 
 ### What does the license exception in the License & Legal section mean?
 
