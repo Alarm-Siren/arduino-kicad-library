@@ -7,50 +7,6 @@
 
 This is a library of KiCad schematic symbols and PCB footprints for most Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
-Currently included modules:
-- Arduino **101** Shield
-- Arduino **Due** Shield
-- Arduino **Giga R1 WiFi** Shield
-- Arduino **Leonardo** Shield
-- Arduino **M0** Shield
-- Arduino **M0 Pro** Shield
-- Arduino **Mega 2560 R3** Shield
-- Arduino **Micro** Socket
-- Arduino **Mini** Socket
-- Arduino **MKR 1000 WiFi** Socket
-- Arduino **MKR WiFi 1010** Socket
-- Arduino **MKR FOX 1200** Socket
-- Arduino **MKR WAN 1300** Socket
-- Arduino **MKR WAN 1310** Socket
-- Arduino **MKR GSM 1400** Socket
-- Arduino **MKR NB 1500** Socket
-- Arduino **MKR Vidor 4000** Socket
-- Arduino **MKR Zero** Socket
-- Arduino **Nano** Socket
-- Arduino **Nano 33 BLE** Socket / Tile
-- Arduino **Nano 33 BLE Sense** Socket / Tile
-- Arduino **Nano 33 BLE Sense R2** Socket / Tile
-- Arduino **Nano 33 IoT** Socket / Tile
-- Arduino **Nano ESP32** Socket / Tile
-- Arduino **Nano Every** Socket / Tile
-- Arduino **Nano RP2040 Connect** Socket / Tile
-- Arduino **Nicla Sense ME** Socket / Tile
-- Arduino **Nicla Vision** Socket / Tile
-- Arduino **Nicla Voice** Socket / Tile
-- Arduino **Pro Mini** Socket
-- Arduino **Uno R1** Shield
-- Arduino **Uno R2** Shield
-- Arduino **Uno R3** Shield
-- Arduino **Uno R3 SMD** Shield
-- Arduino **Uno R4 Minima** Shield
-- Arduino **Uno R4 WiFi** Shield
-- Arduino **Uno WiFi R2** Shield
-- Arduino **Zero** Shield
-- Clone **Mega 2560 Pro** Socket
-- Clone **Pro Mini** Socket
-
-*"Shield" means the module is designed to plug in from beneath your PCB. "Socket" means the module is designed to plug in from above your PCB. "Tile" means the module is designed to be soldered directly on to your PCB using surface-mount pads.*
-
 ## KiCad Version Compatibility
 This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.2. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
 
@@ -159,6 +115,53 @@ KiCad files are not really plaintext, and they change format between both major 
 ### What does the license exception in the License & Legal section mean?
 
 This library uses the same license as KiCad's own built-in parts library does, including the exception. The KiCad Libraries team have a [page which explains the meaning of the exception](https://www.kicad.org/libraries/license/). My version of the exception uses slightly better wording, but the effect is the same.
+
+### Can you give me a full list of the modules included in this library?
+
+I sure can!
+
+- Arduino **101** Shield
+- Arduino **Due** Shield
+- Arduino **Giga R1 WiFi** Shield
+- Arduino **Leonardo** Shield
+- Arduino **M0** Shield
+- Arduino **M0 Pro** Shield
+- Arduino **Mega 2560 R3** Shield
+- Arduino **Micro** Socket
+- Arduino **Mini** Socket
+- Arduino **MKR 1000 WiFi** Socket
+- Arduino **MKR WiFi 1010** Socket
+- Arduino **MKR FOX 1200** Socket
+- Arduino **MKR WAN 1300** Socket
+- Arduino **MKR WAN 1310** Socket
+- Arduino **MKR GSM 1400** Socket
+- Arduino **MKR NB 1500** Socket
+- Arduino **MKR Vidor 4000** Socket
+- Arduino **MKR Zero** Socket
+- Arduino **Nano** Socket
+- Arduino **Nano 33 BLE** Socket / Tile
+- Arduino **Nano 33 BLE Sense** Socket / Tile
+- Arduino **Nano 33 BLE Sense R2** Socket / Tile
+- Arduino **Nano 33 IoT** Socket / Tile
+- Arduino **Nano ESP32** Socket / Tile
+- Arduino **Nano Every** Socket / Tile
+- Arduino **Nano RP2040 Connect** Socket / Tile
+- Arduino **Nicla Sense ME** Socket / Tile
+- Arduino **Nicla Vision** Socket / Tile
+- Arduino **Nicla Voice** Socket / Tile
+- Arduino **Pro Mini** Socket
+- Arduino **Uno R1** Shield
+- Arduino **Uno R2** Shield
+- Arduino **Uno R3** Shield
+- Arduino **Uno R3 SMD** Shield
+- Arduino **Uno R4 Minima** Shield
+- Arduino **Uno R4 WiFi** Shield
+- Arduino **Uno WiFi R2** Shield
+- Arduino **Zero** Shield
+- Clone **Mega 2560 Pro** Socket
+- Clone **Pro Mini** Socket
+
+*"Shield" means the module is designed to plug in from beneath your PCB. "Socket" means the module is designed to plug in from above your PCB. "Tile" means the module is designed to be soldered directly on to your PCB using surface-mount pads.*
 
 ### Why do the footprints not have an `Edge.Cuts` outline?
 
