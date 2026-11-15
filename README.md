@@ -116,7 +116,7 @@ KiCad files are not really plaintext, and they change format between both major 
 
 ### What does the license exception in the License & Legal section mean?
 
-This library uses the same license as KiCad's own built-in parts library does, including the exception. The KiCad Libraries team have a [page which explains the meaning of the exception](https://www.kicad.org/libraries/license/). My version of the exception uses slightly better wording, but the effect is the same.
+This library uses the same license as KiCad's own built-in parts library does, including the exception. The KiCad Libraries team have a [page which explains the meaning of the exception](https://www.kicad.org/libraries/license/). My version of the exception uses slightly improved wording, but the effect is the same.
 
 ### Can you give me a full list of the modules included in this library?
 
