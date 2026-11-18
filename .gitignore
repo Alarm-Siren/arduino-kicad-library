@@ -5,6 +5,7 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_pro.lck
 *~
 _autosave-*
 [#]auto_saved_files[#]
