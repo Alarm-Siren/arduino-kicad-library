@@ -1,20 +1,16 @@
 ![KiCad Library for Arduino banner logo](/resources/banner.png)
 
 # KiCad Symbol & Footprint Library for Arduino Modules
-*Version 4.2.1*
+*Version 5.0.0*
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-61-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D10.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/arduino-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/arduino-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-61-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/arduino-kicad-library/total)
 
 This is a library of KiCad schematic symbols and PCB footprints for most Arduino modules. You can use them to make your own PCB design which will effortlessly connect with your chosen Arduino module.
 
 Quick Links: [Install Instructions](https://github.com/Alarm-Siren/arduino-kicad-library#library-installation) | [List of Included Arduino Modules](https://github.com/Alarm-Siren/arduino-kicad-library#can-you-give-me-a-full-list-of-the-modules-included-in-this-library) | [License](https://github.com/Alarm-Siren/arduino-kicad-library#license--legal) | [Donations](https://github.com/Alarm-Siren/arduino-kicad-library#donations) | [FAQ](https://github.com/Alarm-Siren/arduino-kicad-library#faq)
 
 ## KiCad Version Compatibility
-This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.11, 7.0.11, 8.0.9, 9.0.8 and 10.0.8. Note that the installation procedure is different depending on your version of KiCad: please see the [Library Installation](#library-installation) section below.
-
-### DEPRECATION NOTICE
-
-The 4.x branch of the KiCad Library for Arduino will cease being supported as of 1st January 2027. All future development of this library will continue on the 5.x branch, which will include breaking changes from the 4.x branch and not be compatible with versions of KiCad older than KiCad 10.
+This library requires at least KiCad 10 to function, and is tested on KiCad versions 10.0.8. Note that the installation procedure is different depending on your version of KiCad: please see the [Library Installation](#library-installation) section below.
 
 ## Comments, Requests, Bugs & Contributions
 All are welcome!
@@ -23,7 +19,7 @@ Please open an appropriate [Issue](https://github.com/Alarm-Siren/arduino-kicad-
 ## Library Installation
 To install this library in your copy of KiCad, choose the correct section for your version of KiCad and follow the steps given. These instructions only cover automated installation using KiCad's built-in Package and Content Manager (PCM); manual installation is possible but not supported.
 
-### KiCad 7, 8, 9 and 10
+### KiCad 10+
 
 **Warning**: Do not change the nickname prefix from that given in step 4 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
 
@@ -44,32 +40,10 @@ To install this library in your copy of KiCad, choose the correct section for yo
 15. You may need to restart KiCad for the library installation to fully take effect. **(Optional)**
 16. All done: you are now ready to use these schematic components and footprints in your projects!
 
-### KiCad 6
+### KiCad 9 or older
 **Recommendation:** If you can, you should upgrade to KiCad 10 or later.
 
-**Warning**: Do not change the Nicknames from those given in steps 12 and 18 below. If you do so KiCad will not assign the correct footprints to the symbols by default.
-
-1. Open KiCad and click the "Plugin and Content Manager" button.
-2. Select the "KiCad official repository" from the top drop-down box (if not already selected).
-3. Go the Libraries tab and locate the "KiCad Library for Arduino Modules" in the list.
-4. Click the "Install" button for that entry in the list.
-5. Click "Apply Changes".
-6. Close the "Applying Package Changes" window once it has finished.
-7. You should now find that this library is listed in the "Installed" tab.
-8. Close the Plugin and Content Manager.
-9. Go to the "Preferences" -> "Manage Symbol Libraries..." menu option.
-10. In the Symbol Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
-11. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
-12. In the new line of the table, set the Nickname to "PCM_arduino-library", and ensure the Library Format is set to "KiCad".
-13. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/symbols/com_github_alarm-siren_arduino-kicad-library/arduino-library.kicad_sym".
-14. Click "OK" to close the Symbol Libraries dialogue.
-15. Go to "Preferences" -> "Manage Footprint Libraries..." menu option.
-16. In the Footprint Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
-17. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
-18. In the new line of the table, set the Nickname to "PCM_arduino-library", and ensure the Library Format is set to "KiCad".
-19. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/footprints/com_github_alarm-siren_arduino-kicad-library/arduino-library.pretty".
-20. Click "OK" to close the Footprint Libraries dialogue.
-21. All done: you are now ready to use these schematic components and footprints in your projects!
+KiCad versions 9 or older are not supported as of release 5.0.0 of this library. If you must use an older version of KiCad, release 4.2.1 is the last version that supported KiCad 6-9, and release 1.4.1 is the last version that supported KiCad 5. No version of this library supported KiCad 4 or older.
 
 ## Donations
 
